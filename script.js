@@ -129,7 +129,9 @@ async function loadData() {
             return {
                 ...job,
                 posted_date: job.posted_date || todayStr,
-                isMember: KODA_MEMBERS.includes(job.company),
+                isMember: KODA_MEMBERS.some(member => 
+                    job.company.includes(member) || member.includes(job.company)
+                ),
                 matchedCategories: matchCategories(job.title, job.techStack)
             };
         });
