@@ -113,27 +113,52 @@ def crawl_saramin():
         print(f"[사람인] 에러: {e}")
         return []
 
-def save_to_json(data):
-    """수집된 데이터를 jobs.json 파일로 저장"""
+def save_to_json(new_data):
+    """수집된 데이터를 jobs.json 파일에 누적(Merge)하여 저장 (중복 제거)"""
     file_path = "jobs.json"
+    today_str = time.strftime("%Y-%m-%d")
+    
+    # 1. 기존 데이터 로드
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            existing_data = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        existing_data = []
+
+    # 2. 중복 체크를 위한 URL 세트 생성
+    existing_urls = {item['url'] for item in existing_data}
+    
+    # 3. 새로운 데이터에 게시일 및 플랫폼 추가 및 중복 제외 통합
+    added_count = 0
+    for item in new_data:
+        if item['url'] not in existing_urls:
+            item['posted_date'] = today_str # 수집일을 게시일로 간주
+            existing_data.append(item)
+            existing_urls.add(item['url'])
+            added_count += 1
+
+    # 4. 최종 저장
     try:
         with open(file_path, 'w', encoding='utf-8') as f:
-            json.dump(data, f, ensure_ascii=False, indent=4)
-        print(f"\n[성공] 총 {len(data)}건의 데이터가 {file_path}에 저장되었습니다.")
+            json.dump(existing_data, f, ensure_ascii=False, indent=4)
+        print(f"\n[완료] {added_count}건의 새로운 공고가 추가되었습니다. (총 {len(existing_data)}건)")
     except Exception as e:
         print(f"저장 에러: {e}")
 
 if __name__ == "__main__":
     # 1. 데이터 수집
     jobkorea_results = crawl_jobkorea()
-    time.sleep(random.uniform(2, 4)) # 차단 방지를 위한 간격
-    saramin_results = crawl_saramin()
+    for item in jobkorea_results: item['platform'] = 'JobKorea'
     
-    # 2. 통합
+    time.sleep(random.uniform(2, 4))
+    
+    saramin_results = crawl_saramin()
+    for item in saramin_results: item['platform'] = 'Saramin'
+    
+    # 2. 통합 및 누적 저장
     all_results = jobkorea_results + saramin_results
     
-    # 3. 저장
     if all_results:
         save_to_json(all_results)
     else:
-        print("수집된 데이터가 없습니다. 사이트 구조 변경 여부를 확인해주세요.")
+        print("수집된 데이터가 없습니다.")
