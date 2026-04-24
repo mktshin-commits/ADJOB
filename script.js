@@ -83,6 +83,10 @@ tabBtns.forEach(btn => {
 
         const targetId = btn.dataset.target;
         document.getElementById(targetId).classList.remove('hidden');
+
+        if (targetId === 'tableView') {
+            renderTable();
+        }
     });
 });
 
@@ -245,58 +249,67 @@ function getDaysLeft(deadline) {
 }
 
 function renderTable() {
+    if (!memberTableBody) return;
     memberTableBody.innerHTML = '';
     
-    // 중복 제거된 유니크한 회원사 명단 생성
-    const uniqueMembers = [...new Set(KODA_MEMBERS)];
+    // 유니크한 회원사 명단 (대소문자 및 공백 제거 고려)
+    const uniqueMembers = [...new Set(KODA_MEMBERS)].map(m => m.trim());
     
     // 회원사별 정보 가공
     const memberData = uniqueMembers.map(company => {
-        const companyJobs = ALL_JOBS.filter(job => job.company.includes(company));
-        // 마감되지 않은 공고만 필터링하여 가장 빠른 마감일 찾기
-        const activeJobs = companyJobs.filter(job => getDaysLeft(job.deadline) !== '마감');
+        // 해당 회원사의 공고 찾기 (회사명이 포함되거나 포함된 경우)
+        const companyJobs = ALL_JOBS.filter(job => 
+            job.company.includes(company) || company.includes(job.company)
+        );
         
-        let minDays = Infinity;
+        // 마감되지 않은 공고만 필터링
+        const activeJobs = companyJobs.filter(job => {
+            const days = getDaysLeft(job.deadline);
+            return days !== '마감';
+        });
+        
+        let minDays = 9999; // 기본값 (아주 먼 미래)
         activeJobs.forEach(job => {
             const days = getDaysLeft(job.deadline);
             const daysNum = days === '∞' ? 999 : parseInt(days);
-            if (daysNum < minDays) minDays = daysNum;
+            if (!isNaN(daysNum) && daysNum < minDays) minDays = daysNum;
         });
 
         return {
             name: company,
             jobCount: activeJobs.length,
-            minDays: minDays,
-            allJobs: companyJobs
+            minDays: minDays
         };
     });
 
-    // 정렬 로직
+    // 정렬 로직 (구인 중 우선 -> 마감임박순 -> 가나다순)
     memberData.sort((a, b) => {
-        // 1. 구인 여부 우선 (구인 중인 기업을 위로)
-        const aStatus = a.jobCount > 0 ? 1 : 0;
-        const bStatus = b.jobCount > 0 ? 1 : 0;
-        
-        if (aStatus !== bStatus) {
-            return bStatus - aStatus; // 1(구인중)이 0보다 앞서게
-        }
+        // 1. 구인 중인 기업이 상단으로 (jobCount > 0 이면 위로)
+        if (a.jobCount > 0 && b.jobCount === 0) return -1;
+        if (a.jobCount === 0 && b.jobCount > 0) return 1;
 
-        // 2. 둘 다 구인 중인 경우 -> 마감임박순
-        if (aStatus === 1) {
+        // 2. 둘 다 구인 중인 경우 -> 마감임박순 (minDays 오름차순)
+        if (a.jobCount > 0 && b.jobCount > 0) {
             if (a.minDays !== b.minDays) {
                 return a.minDays - b.minDays;
             }
-            return a.name.localeCompare(b.name); // 마감일도 같으면 가나다순
         }
 
-        // 3. 둘 다 구인 없는 경우 -> 가나다순
-        return a.name.localeCompare(b.name);
+        // 3. 그 외 (둘 다 구인 없거나 마감일 같음) -> 가나다순
+        return a.name.localeCompare(b.name, 'ko');
     });
 
     memberData.forEach((member, index) => {
         const tr = document.createElement('tr');
-        let statusHtml = member.jobCount > 0 ? `<span class="status-hiring">구인 중</span>` : `<span class="status-none">공고 없음</span>`;
-        let actionHtml = member.jobCount > 0 ? `<button class="action-btn" onclick="filterByCompany('${member.name}')">공고 보기</button>` : `<span style="color:#CBD5E1">-</span>`;
+        const isHiring = member.jobCount > 0;
+        
+        let statusHtml = isHiring 
+            ? `<span class="status-hiring">구인 중</span>` 
+            : `<span class="status-none">공고 없음</span>`;
+        
+        let actionHtml = isHiring 
+            ? `<button class="action-btn" onclick="filterByCompany('${member.name}')">공고 보기</button>` 
+            : `<span style="color:#CBD5E1">-</span>`;
         
         tr.innerHTML = `
             <td>${index + 1}</td>
