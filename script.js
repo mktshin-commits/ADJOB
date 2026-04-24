@@ -247,8 +247,11 @@ function getDaysLeft(deadline) {
 function renderTable() {
     memberTableBody.innerHTML = '';
     
+    // 중복 제거된 유니크한 회원사 명단 생성
+    const uniqueMembers = [...new Set(KODA_MEMBERS)];
+    
     // 회원사별 정보 가공
-    const memberData = KODA_MEMBERS.map(company => {
+    const memberData = uniqueMembers.map(company => {
         const companyJobs = ALL_JOBS.filter(job => job.company.includes(company));
         // 마감되지 않은 공고만 필터링하여 가장 빠른 마감일 찾기
         const activeJobs = companyJobs.filter(job => getDaysLeft(job.deadline) !== '마감');
@@ -270,16 +273,23 @@ function renderTable() {
 
     // 정렬 로직
     memberData.sort((a, b) => {
-        // 1. 구인 중인 기업 우선
-        if (a.jobCount > 0 && b.jobCount === 0) return -1;
-        if (a.jobCount === 0 && b.jobCount > 0) return 1;
-
-        // 2. 구인 중인 기업끼리는 마감임박순
-        if (a.jobCount > 0 && b.jobCount > 0) {
-            return a.minDays - b.minDays;
+        // 1. 구인 여부 우선 (구인 중인 기업을 위로)
+        const aStatus = a.jobCount > 0 ? 1 : 0;
+        const bStatus = b.jobCount > 0 ? 1 : 0;
+        
+        if (aStatus !== bStatus) {
+            return bStatus - aStatus; // 1(구인중)이 0보다 앞서게
         }
 
-        // 3. 구인 없는 기업끼리는 가나다순
+        // 2. 둘 다 구인 중인 경우 -> 마감임박순
+        if (aStatus === 1) {
+            if (a.minDays !== b.minDays) {
+                return a.minDays - b.minDays;
+            }
+            return a.name.localeCompare(b.name); // 마감일도 같으면 가나다순
+        }
+
+        // 3. 둘 다 구인 없는 경우 -> 가나다순
         return a.name.localeCompare(b.name);
     });
 
