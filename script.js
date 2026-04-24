@@ -67,6 +67,7 @@ const locationFilter = document.getElementById('locationFilter');
 const kodaaFilter = document.getElementById('kodaaFilter');
 const sortFilter = document.getElementById('sortFilter');
 const dateFilter = document.getElementById('dateFilter');
+const showExpiredToggle = document.getElementById('showExpiredToggle');
 const techChips = document.querySelectorAll('.chip');
 
 let activeTechFilter = null;
@@ -157,14 +158,22 @@ function renderJobs(jobs) {
         const card = document.createElement('div');
         card.className = 'job-card';
         
+        const daysLeft = getDaysLeft(job.deadline);
+        const isExpired = daysLeft === '마감';
+        
+        if (isExpired) card.classList.add('expired');
+
         let kodaBadge = job.isMember ? `<span class="koda-badge">[KODA 회원사]</span>` : '';
         
         // 마감 임박 체크 (3일 이내)
-        const daysLeft = getDaysLeft(job.deadline);
-        let urgentBadge = (daysLeft !== '∞' && daysLeft !== '마감' && daysLeft <= 3) 
+        let urgentBadge = (!isExpired && daysLeft !== '∞' && daysLeft <= 3) 
             ? `<span class="urgent-badge">마감임박</span>` 
             : '';
         
+        if (isExpired) {
+            urgentBadge = `<span class="badge expired">채용 마감</span>`;
+        }
+
         // 플랫폼 아이콘 (간이 처리)
         let platformIcon = job.platform === 'Saramin' 
             ? 'https://www.saramin.co.kr/favicon.ico' 
@@ -183,7 +192,7 @@ function renderJobs(jobs) {
                     ${kodaBadge}
                     ${urgentBadge}
                 </div>
-                <span class="badge">${job.deadline === '상시채용' ? '상시채용' : 'D-' + getDaysLeft(job.deadline)}</span>
+                <span class="badge ${isExpired ? 'expired' : ''}">${job.deadline === '상시채용' ? '상시채용' : isExpired ? '마감됨' : 'D-' + daysLeft}</span>
             </div>
             <h2 class="job-title">${job.title}</h2>
             <div class="job-tags">
@@ -196,6 +205,33 @@ function renderJobs(jobs) {
         card.addEventListener('click', () => showDetail(job));
         jobListEl.appendChild(card);
     });
+}
+
+function renderStatistics(jobs) {
+    const totalJobs = jobs.length;
+    
+    // 가장 많이 채용한 직무 찾기
+    const categoryCounts = {};
+    jobs.forEach(job => {
+        job.matchedCategories.forEach(cat => {
+            categoryCounts[cat] = (categoryCounts[cat] || 0) + 1;
+        });
+    });
+    const topCategory = Object.keys(categoryCounts).sort((a, b) => categoryCounts[b] - categoryCounts[a])[0] || "-";
+
+    // 가장 많이 채용한 기업 TOP 3
+    const companyCounts = {};
+    jobs.forEach(job => {
+        companyCounts[job.company] = (companyCounts[job.company] || 0) + 1;
+    });
+    const topCompanies = Object.keys(companyCounts)
+        .sort((a, b) => companyCounts[b] - companyCounts[a])
+        .slice(0, 3)
+        .join(", ") || "-";
+
+    document.getElementById('statTotalJobs').textContent = `${totalJobs}건`;
+    document.getElementById('statTopCategory').textContent = topCategory;
+    document.getElementById('statTopCompanies').textContent = topCompanies;
 }
 
 function getDaysLeft(deadline) {
@@ -284,6 +320,7 @@ function applyFilters() {
     const selectedLocation = locationFilter.value;
     const isKodaOnly = kodaaFilter.checked; 
     const selectedDateMonth = dateFilter.value;
+    const isShowExpired = showExpiredToggle.checked;
 
     const today = new Date();
 
@@ -310,7 +347,15 @@ function applyFilters() {
 
         return matchesSearch && matchesExp && matchesLoc && matchesTech && matchesKoda && matchesDate;
     });
-    
+
+    // 통계 계산은 필터링된 모든 공고(진행+마감)를 대상으로 함
+    renderStatistics(filtered);
+
+    // 리스트 표시는 토글 상태에 따라 마감 공고 제외 여부 결정
+    if (!isShowExpired) {
+        filtered = filtered.filter(job => getDaysLeft(job.deadline) !== '마감');
+    }
+
     // 정렬: 인증 회원사 우선 노출
     filtered.sort((a, b) => {
         if (a.isMember && !b.isMember) return -1;
@@ -333,6 +378,7 @@ locationFilter.addEventListener('change', applyFilters);
 kodaaFilter.addEventListener('change', applyFilters);
 sortFilter.addEventListener('change', applyFilters);
 dateFilter.addEventListener('change', applyFilters);
+showExpiredToggle.addEventListener('change', applyFilters);
 
 techChips.forEach(chip => {
     chip.addEventListener('click', () => {

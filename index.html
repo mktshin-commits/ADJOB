@@ -69,6 +69,22 @@
         </aside>
 
         <main class="main-feed">
+            <!-- 통계 대시보드 (Statistics Dashboard) -->
+            <section class="stats-dashboard" id="statsDashboard">
+                <div class="stat-card">
+                    <div class="stat-label">총 채용 공고</div>
+                    <div class="stat-value" id="statTotalJobs">0건</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">인기 직무</div>
+                    <div class="stat-value" id="statTopCategory">-</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">주요 채용 기업</div>
+                    <div class="stat-value" id="statTopCompanies">-</div>
+                </div>
+            </section>
+
             <!-- 상단 직무별 퀵 탭 (Job Category Tabs) -->
             <div class="quick-tabs-wrapper">
                 <div class="chip-container" id="techStackFilter">
@@ -82,7 +98,12 @@
             </div>
 
             <div class="feed-header">
-                <span class="result-count">현재 공고 총 <span id="count">0</span>건</span>
+                <div class="feed-info">
+                    <span class="result-count">현재 공고 총 <span id="count">0</span>건</span>
+                    <label class="toggle-expired">
+                        <input type="checkbox" id="showExpiredToggle" checked> 마감된 공고 포함
+                    </label>
+                </div>
                 <select id="sortFilter">
                     <option value="latest">최신 등록순</option>
                     <option value="deadline">마감 임박순</option>
