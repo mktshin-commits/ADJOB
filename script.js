@@ -246,20 +246,52 @@ function getDaysLeft(deadline) {
 
 function renderTable() {
     memberTableBody.innerHTML = '';
-    const sortedMembers = [...KODA_MEMBERS].sort();
-
-    sortedMembers.forEach((company, index) => {
+    
+    // 회원사별 정보 가공
+    const memberData = KODA_MEMBERS.map(company => {
         const companyJobs = ALL_JOBS.filter(job => job.company.includes(company));
-        const jobCount = companyJobs.length;
+        // 마감되지 않은 공고만 필터링하여 가장 빠른 마감일 찾기
+        const activeJobs = companyJobs.filter(job => getDaysLeft(job.deadline) !== '마감');
         
+        let minDays = Infinity;
+        activeJobs.forEach(job => {
+            const days = getDaysLeft(job.deadline);
+            const daysNum = days === '∞' ? 999 : parseInt(days);
+            if (daysNum < minDays) minDays = daysNum;
+        });
+
+        return {
+            name: company,
+            jobCount: activeJobs.length,
+            minDays: minDays,
+            allJobs: companyJobs
+        };
+    });
+
+    // 정렬 로직
+    memberData.sort((a, b) => {
+        // 1. 구인 중인 기업 우선
+        if (a.jobCount > 0 && b.jobCount === 0) return -1;
+        if (a.jobCount === 0 && b.jobCount > 0) return 1;
+
+        // 2. 구인 중인 기업끼리는 마감임박순
+        if (a.jobCount > 0 && b.jobCount > 0) {
+            return a.minDays - b.minDays;
+        }
+
+        // 3. 구인 없는 기업끼리는 가나다순
+        return a.name.localeCompare(b.name);
+    });
+
+    memberData.forEach((member, index) => {
         const tr = document.createElement('tr');
-        let statusHtml = jobCount > 0 ? `<span class="status-hiring">구인 중</span>` : `<span class="status-none">공고 없음</span>`;
-        let actionHtml = jobCount > 0 ? `<button class="action-btn" onclick="filterByCompany('${company}')">공고 보기</button>` : `<span style="color:#CBD5E1">-</span>`;
+        let statusHtml = member.jobCount > 0 ? `<span class="status-hiring">구인 중</span>` : `<span class="status-none">공고 없음</span>`;
+        let actionHtml = member.jobCount > 0 ? `<button class="action-btn" onclick="filterByCompany('${member.name}')">공고 보기</button>` : `<span style="color:#CBD5E1">-</span>`;
         
         tr.innerHTML = `
             <td>${index + 1}</td>
-            <td style="font-weight: 700;">${company}</td>
-            <td>${jobCount}건</td>
+            <td style="font-weight: 700;">${member.name}</td>
+            <td>${member.jobCount}건</td>
             <td>${statusHtml}</td>
             <td>${actionHtml}</td>
         `;
