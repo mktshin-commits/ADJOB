@@ -532,7 +532,9 @@ function showDetail(job) {
                 마감일: ${job.deadline}
             </p>
         </div>
-        <a href="${job.url}" class="apply-btn" target="_blank">원본 공고 보러가기 / 지원하기</a>
+        <a href="${job.url}" class="apply-btn" target="_blank">
+            ${job.platform === 'Saramin' ? '사람인' : '잡코리아'}에서 원본 공고 보기 / 지원하기
+        </a>
     `;
     detailModal.style.display = 'flex';
 }
