@@ -86,6 +86,8 @@ tabBtns.forEach(btn => {
 
         if (targetId === 'tableView') {
             renderTable();
+        } else if (targetId === 'statsView') {
+            renderStatsView();
         }
     });
 });
@@ -142,6 +144,7 @@ async function loadData() {
         
         applyFilters(); 
         renderTable(); 
+        renderStatsView(); // 통계 초기 렌더링
     } catch (error) {
         console.error('데이터 로딩 에러:', error);
         jobListEl.innerHTML = `<div style="text-align:center; padding: 3rem; color: #718096;">데이터를 불러올 수 없습니다.</div>`;
@@ -319,6 +322,177 @@ function renderTable() {
             <td>${actionHtml}</td>
         `;
         memberTableBody.appendChild(tr);
+    });
+}
+
+let monthlyTrendChart = null;
+let jobDistributionChart = null;
+
+function renderStatsView() {
+    const statsContainer = document.getElementById('statsView');
+    if (!statsContainer || statsContainer.classList.contains('hidden')) return;
+
+    const today = new Date();
+    const sixMonthsAgo = new Date();
+    sixMonthsAgo.setMonth(today.getMonth() - 6);
+    
+    // 1. 핵심 지표 계산
+    const thisMonth = today.getMonth();
+    const thisYear = today.getFullYear();
+    
+    const jobsThisMonth = ALL_JOBS.filter(j => {
+        const d = new Date(j.posted_date);
+        return d.getMonth() === thisMonth && d.getFullYear() === thisYear;
+    });
+    
+    const lastMonthDate = new Date();
+    lastMonthDate.setMonth(today.getMonth() - 1);
+    const lastMonth = lastMonthDate.getMonth();
+    const lastMonthYear = lastMonthDate.getFullYear();
+    
+    const jobsLastMonth = ALL_JOBS.filter(j => {
+        const d = new Date(j.posted_date);
+        return d.getMonth() === lastMonth && d.getFullYear() === lastMonthYear;
+    });
+    
+    // 증감률 계산
+    const trendPercent = jobsLastMonth.length === 0 ? 100 : Math.round(((jobsThisMonth.length - jobsLastMonth.length) / jobsLastMonth.length) * 100);
+    const trendText = trendPercent >= 0 ? `+${trendPercent}%` : `${trendPercent}%`;
+    const trendColor = trendPercent >= 0 ? '#10B981' : '#EF4444';
+
+    document.getElementById('thisMonthJobs').textContent = `${jobsThisMonth.length}건`;
+    const monthTrendEl = document.getElementById('monthTrend');
+    monthTrendEl.textContent = `전월 대비 ${trendText}`;
+    monthTrendEl.style.color = trendColor;
+
+    const activeCompanies = new Set(ALL_JOBS.filter(j => getDaysLeft(j.deadline) !== '마감').map(j => j.company));
+    document.getElementById('activeCompanyCount').textContent = `${activeCompanies.size}개사`;
+
+    // 가장 수요 높은 직무
+    const catCounts = {};
+    ALL_JOBS.filter(j => {
+        const d = new Date(j.posted_date);
+        const thirtyDaysAgo = new Date();
+        thirtyDaysAgo.setDate(today.getDate() - 30);
+        return d >= thirtyDaysAgo;
+    }).forEach(j => {
+        j.matchedCategories.forEach(c => catCounts[c] = (catCounts[c] || 0) + 1);
+    });
+    const topJob = Object.keys(catCounts).sort((a,b) => catCounts[b] - catCounts[a])[0] || "-";
+    document.getElementById('mostDemandedJob').textContent = topJob;
+
+    // KODA 회원사 비중
+    const kodaJobs = ALL_JOBS.filter(j => j.isMember);
+    const kodaShare = Math.round((kodaJobs.length / ALL_JOBS.length) * 100) || 0;
+    document.getElementById('kodaShareText').textContent = `KODA 회원사가 국내 광고 채용 시장의 약 ${kodaShare}%를 선도하고 있습니다.`;
+
+    // 2. 월별 추이 차트 데이터 (최근 12개월)
+    const monthsLabels = [];
+    const jobsData = [];
+    const compsData = [];
+    
+    for (let i = 11; i >= 0; i--) {
+        const d = new Date();
+        d.setMonth(today.getMonth() - i);
+        const m = d.getMonth();
+        const y = d.getFullYear();
+        monthsLabels.push(`${m + 1}월`);
+        
+        const monthlyJobs = ALL_JOBS.filter(j => {
+            const jd = new Date(j.posted_date);
+            return jd.getMonth() === m && jd.getFullYear() === y;
+        });
+        jobsData.push(monthlyJobs.length);
+        compsData.push(new Set(monthlyJobs.map(j => j.company)).size);
+    }
+
+    if (monthlyTrendChart) monthlyTrendChart.destroy();
+    const ctxTrend = document.getElementById('monthlyTrendChart').getContext('2d');
+    monthlyTrendChart = new Chart(ctxTrend, {
+        type: 'line',
+        data: {
+            labels: monthsLabels,
+            datasets: [
+                {
+                    label: '채용 공고 수',
+                    data: jobsData,
+                    borderColor: '#2563EB',
+                    backgroundColor: 'rgba(37, 99, 235, 0.1)',
+                    fill: true,
+                    tension: 0.4
+                },
+                {
+                    label: '채용 기업 수',
+                    data: compsData,
+                    borderColor: '#10B981',
+                    backgroundColor: 'transparent',
+                    borderDash: [5, 5],
+                    tension: 0.4
+                }
+            ]
+        },
+        options: {
+            responsive: true,
+            plugins: { legend: { position: 'top' } },
+            scales: { y: { beginAtZero: true } }
+        }
+    });
+
+    // 3. 직무별 비중 차트 (Pie)
+    const pieData = Object.keys(JOB_CATEGORIES).map(cat => {
+        return ALL_JOBS.filter(j => j.matchedCategories.includes(cat)).length;
+    });
+
+    if (jobDistributionChart) jobDistributionChart.destroy();
+    const ctxPie = document.getElementById('jobDistributionChart').getContext('2d');
+    jobDistributionChart = new Chart(ctxPie, {
+        type: 'doughnut',
+        data: {
+            labels: Object.keys(JOB_CATEGORIES),
+            datasets: [{
+                data: pieData,
+                backgroundColor: ['#3B82F6', '#EC4899', '#10B981', '#F59E0B', '#6366F1']
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: { legend: { position: 'bottom' } }
+        }
+    });
+
+    // 4. 기업별 순위 테이블 (최근 6개월)
+    const rankingBody = document.getElementById('companyRankingBody');
+    rankingBody.innerHTML = '';
+    
+    const companyStats = {};
+    ALL_JOBS.filter(j => new Date(j.posted_date) >= sixMonthsAgo).forEach(j => {
+        if (!companyStats[j.company]) {
+            companyStats[j.company] = { count: 0, categories: {}, isMember: j.isMember };
+        }
+        // 채용 인원 추정 로직 (팁 반영)
+        // 0명이면 1.5명, 그 외는 1명으로 계산 (간이 합산)
+        const hiringEstimate = j.title.includes('0명') ? 1.5 : 1.0;
+        companyStats[j.company].count += hiringEstimate;
+        
+        j.matchedCategories.forEach(c => {
+            companyStats[j.company].categories[c] = (companyStats[j.company].categories[c] || 0) + 1;
+        });
+    });
+
+    const sortedCompanies = Object.keys(companyStats).sort((a,b) => companyStats[b].count - companyStats[a].count).slice(0, 10);
+
+    sortedCompanies.forEach((name, i) => {
+        const data = companyStats[name];
+        const topCat = Object.keys(data.categories).sort((a,b) => data.categories[b] - data.categories[a])[0] || "-";
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+            <td><span class="rank-badge">${i + 1}</span></td>
+            <td style="font-weight:700;">${name}</td>
+            <td>${Math.floor(data.count)}건+</td>
+            <td>${topCat}</td>
+            <td>${data.isMember ? '✨ KODA' : '-'}</td>
+        `;
+        rankingBody.appendChild(tr);
     });
 }
 
