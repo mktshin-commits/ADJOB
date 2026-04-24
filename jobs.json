@@ -88,5 +88,21 @@
         "posted_date": "2026-04-24",
         "techStack": ["SA", "네이버 광고"],
         "isUrgent": false
+    },
+    {
+        "platform": "JobKorea",
+        "company": "하쿠호도제일",
+        "title": "하쿠호도제일 미디어솔루션팀 리더 모집",
+        "experience": ["경력 10년 이상"],
+        "location": "서울 마포구",
+        "salary": "면접 후 결정",
+        "url": "https://www.jobkorea.co.kr/Search/?stext=하쿠호도제일",
+        "isMember": true,
+        "matchedCategories": ["기획/전략", "테크/AI"],
+        "deadline": "2026-05-03",
+        "posted_date": "2026-04-03",
+        "techStack": ["미디어 솔루션", "리더십"],
+        "isUrgent": false,
+        "id": 999
     }
 ]
