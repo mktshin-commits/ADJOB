@@ -78,8 +78,8 @@ tabBtns.forEach(btn => {
         tabBtns.forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
 
-        feedView.classList.add('hidden');
-        tableView.classList.add('hidden');
+        // 모든 뷰 숨기기
+        document.querySelectorAll('.view-section').forEach(view => view.classList.add('hidden'));
 
         const targetId = btn.dataset.target;
         document.getElementById(targetId).classList.remove('hidden');
@@ -330,7 +330,7 @@ let jobDistributionChart = null;
 
 function renderStatsView() {
     const statsContainer = document.getElementById('statsView');
-    if (!statsContainer || statsContainer.classList.contains('hidden')) return;
+    if (!statsContainer) return;
 
     const today = new Date();
     const sixMonthsAgo = new Date();
