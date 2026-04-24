@@ -1,0 +1,640 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Pretendard:wght@400;500;600;700;800&display=swap');
+
+:root {
+    --bg-color: #F9FAFB;
+    --card-bg: #FFFFFF;
+    --primary-color: #1A365D;
+    --accent-color: #FF6B35;
+    --koda-blue: #2563EB;
+    --text-main: #0F172A;
+    --text-muted: #64748B;
+    --border-color: #E2E8F0;
+    --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    --shadow-lg: 0 10px 25px -5px rgba(26, 54, 93, 0.1);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Pretendard', sans-serif;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    line-height: 1.6;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem; /* 모바일 대응 패딩 축소 */
+    background-color: var(--card-bg);
+    border-bottom: 2px solid var(--primary-color);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+@media (min-width: 768px) {
+    .top-nav {
+        padding: 1.5rem 3rem;
+    }
+}
+
+.logo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.75rem;
+    font-weight: 900;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    cursor: pointer;
+}
+
+.logo span {
+    color: var(--accent-color);
+}
+
+/* Tab Navigation */
+.nav-tabs {
+    display: flex;
+    gap: 2rem;
+}
+
+.tab-btn {
+    background: none;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--text-muted);
+    cursor: pointer;
+    padding: 0.5rem 0;
+    position: relative;
+    transition: color 0.3s;
+}
+
+.tab-btn:hover {
+    color: var(--primary-color);
+}
+
+.tab-btn.active {
+    color: var(--primary-color);
+}
+
+.tab-btn.active::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: var(--accent-color);
+    border-radius: 4px 4px 0 0;
+}
+
+.login-btn {
+    padding: 0.6rem 2rem;
+    background-color: transparent;
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    border-radius: 4px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.login-btn:hover {
+    background-color: var(--primary-color);
+    color: #FFF;
+}
+
+/* View Control */
+.view-section {
+    display: flex;
+    flex-direction: column; /* 모바일 우선: 세로 배치 */
+    max-width: 1300px;
+    margin: 1.5rem auto;
+    padding: 0 1rem;
+    gap: 2rem;
+}
+
+@media (min-width: 1024px) {
+    .view-section {
+        flex-direction: row; /* PC: 가로 배치 */
+        margin: 3rem auto;
+        padding: 0 1.5rem;
+        gap: 3rem;
+    }
+}
+
+.view-section.hidden {
+    display: none !important;
+}
+
+/* Sidebar & Filters */
+.sidebar {
+    width: 100%; /* 모바일: 전체 너비 */
+    flex-shrink: 0;
+}
+
+@media (min-width: 1024px) {
+    .sidebar {
+        width: 280px; /* PC: 고정 너비 */
+    }
+}
+
+.filter-group {
+    background: transparent;
+    margin-bottom: 2rem;
+}
+
+.filter-group h3 {
+    font-size: 1.1rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+    letter-spacing: 0.5px;
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 0.5rem;
+    display: inline-block;
+}
+
+.filter-group label {
+    display: block;
+    margin-bottom: 0.8rem;
+    cursor: pointer;
+    color: var(--text-muted);
+    font-weight: 600;
+    transition: color 0.2s;
+}
+
+.filter-group label:hover {
+    color: var(--accent-color);
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    font-size: 0.95rem;
+    outline: none;
+    transition: all 0.3s;
+}
+
+.search-bar input:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(26, 54, 93, 0.1);
+}
+
+#locationFilter, #sortFilter {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    outline: none;
+    font-family: inherit;
+    font-weight: 600;
+}
+
+.quick-tabs-wrapper {
+    margin-bottom: 2rem;
+    overflow-x: auto;
+    padding-bottom: 0.5rem;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.quick-tabs-wrapper::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+}
+
+.chip-container {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0.75rem;
+}
+
+.chip {
+    padding: 0.6rem 1.25rem;
+    border: 1px solid var(--border-color);
+    background: var(--card-bg);
+    border-radius: 50px; /* 둥근 캡슐 모양 */
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    color: var(--text-muted);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    white-space: nowrap;
+    box-shadow: var(--shadow-sm);
+}
+
+.chip.active {
+    background: var(--primary-color);
+    color: #FFF;
+    border-color: var(--primary-color);
+    transform: scale(1.05);
+}
+
+.chip:hover:not(.active) {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+    background: #F8FAFC;
+}
+
+/* Feed Area */
+.main-feed {
+    flex-grow: 1;
+}
+
+.feed-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 1rem;
+}
+
+.result-count {
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: var(--primary-color);
+}
+
+.job-list {
+    display: grid;
+    grid-template-columns: 1fr; /* 모바일: 1열 */
+    gap: 1rem;
+}
+
+@media (min-width: 768px) {
+    .job-list {
+        grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); /* 테블릿/PC: 자동 채우기 */
+        gap: 1.5rem;
+    }
+}
+
+.job-card {
+    background: var(--card-bg);
+    padding: 1.5rem; /* 패딩 축소 */
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    box-shadow: var(--shadow-sm);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .job-card {
+        padding: 2rem;
+    }
+}
+
+.job-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background-color: var(--accent-color);
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: transform 0.3s ease;
+}
+
+.job-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--primary-color);
+}
+
+.job-card:hover::before {
+    transform: scaleY(1);
+}
+
+.job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1.2rem;
+}
+
+.company-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.company-name {
+    font-weight: 800;
+    color: var(--primary-color);
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+}
+
+.koda-badge {
+    background: #EFF6FF;
+    color: var(--koda-blue);
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    font-weight: 800;
+    border: 1px solid #BFDBFE;
+}
+
+.platform-icon {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    width: 24px;
+    height: 24px;
+    opacity: 0.6;
+    transition: opacity 0.3s;
+}
+
+.job-card:hover .platform-icon {
+    opacity: 1;
+}
+
+.badge {
+    background: var(--bg-color);
+    color: var(--text-muted);
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    border: 1px solid var(--border-color);
+    margin-left: auto;
+}
+
+.job-title {
+    font-size: 1.4rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+    color: var(--text-main);
+    line-height: 1.3;
+}
+
+.job-footer {
+    display: flex;
+    gap: 0.8rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+}
+
+.highlight-tag {
+    display: inline-block;
+    padding: 0.3rem 0.7rem;
+    border-radius: 4px;
+    font-weight: 800;
+    font-size: 0.8rem;
+}
+
+.tag-entry {
+    background-color: #E0F2FE;
+    color: #0284C7;
+}
+
+.tag-exp {
+    background-color: #F3E8FF;
+    color: #7E22CE;
+}
+
+.tag-urgent {
+    background-color: #FFF0ED;
+    color: var(--accent-color);
+}
+
+.tag-loc {
+    background-color: var(--bg-color);
+    color: var(--text-muted);
+    border: 1px solid var(--border-color);
+}
+
+.tag-kodaa {
+    background-color: #FFF9C4;
+    color: #F57F17;
+    border: 1px solid #FBC02D;
+    font-weight: 900;
+}
+
+.job-tags {
+    display: flex;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+    margin-top: auto;
+}
+
+.job-tags span {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--text-muted);
+}
+
+/* Modal Styles */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(15, 23, 42, 0.7);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    backdrop-filter: blur(8px);
+}
+
+.modal-content {
+    background: var(--card-bg);
+    width: 90%;
+    max-width: 650px;
+    max-height: 90vh;
+    border-radius: 4px;
+    padding: 3rem;
+    position: relative;
+    overflow-y: auto;
+    border-top: 5px solid var(--accent-color);
+}
+
+.close-btn {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    background: none;
+    border: none;
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: var(--text-muted);
+    line-height: 1;
+    transition: color 0.3s;
+}
+
+.close-btn:hover {
+    color: var(--accent-color);
+}
+
+.modal-title {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+    color: var(--primary-color);
+    line-height: 1.3;
+}
+
+.modal-company {
+    font-size: 1.1rem;
+    color: var(--accent-color);
+    font-weight: 800;
+    margin-bottom: 2rem;
+    letter-spacing: 0.5px;
+}
+
+.modal-details {
+    margin-bottom: 2.5rem;
+    color: var(--text-main);
+    border-top: 1px solid var(--border-color);
+    padding-top: 2rem;
+}
+
+.modal-details h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.apply-btn {
+    display: block;
+    width: 100%;
+    padding: 1.25rem;
+    background: var(--primary-color);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 800;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background 0.3s;
+}
+
+.apply-btn:hover {
+    background: var(--accent-color);
+}
+
+/* Table View Styles */
+.table-container {
+    width: 100%;
+    background: var(--card-bg);
+    padding: 1.5rem; /* 모바일 대응 패딩 축소 */
+    border-radius: 4px;
+    box-shadow: var(--shadow-sm);
+    border: 1px solid var(--border-color);
+    overflow-x: auto; /* 가로 스크롤 추가 */
+}
+
+@media (min-width: 768px) {
+    .table-container {
+        padding: 3rem;
+    }
+}
+
+.table-header {
+    margin-bottom: 2rem;
+}
+
+.table-header h2 {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.table-header p {
+    color: var(--text-muted);
+    font-size: 1rem;
+}
+
+.status-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.status-table th, .status-table td {
+    padding: 1.2rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.status-table th {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.status-table tbody tr {
+    transition: background-color 0.2s;
+}
+
+.status-table tbody tr:hover {
+    background-color: #F8FAFC;
+}
+
+.status-table td {
+    font-weight: 500;
+    color: var(--text-main);
+}
+
+.status-hiring {
+    color: #10B981;
+    font-weight: 800;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.status-hiring::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #10B981;
+    border-radius: 50%;
+    box-shadow: 0 0 8px rgba(16, 185, 129, 0.4);
+}
+
+.status-none {
+    color: var(--text-muted);
+}
+
+.action-btn {
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: background-color 0.2s;
+}
+
+.action-btn:hover {
+    background-color: var(--accent-color);
+}
