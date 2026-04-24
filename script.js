@@ -66,6 +66,7 @@ const expFilters = document.querySelectorAll('.filter-exp');
 const locationFilter = document.getElementById('locationFilter');
 const kodaaFilter = document.getElementById('kodaaFilter');
 const sortFilter = document.getElementById('sortFilter');
+const dateFilter = document.getElementById('dateFilter');
 const techChips = document.querySelectorAll('.chip');
 
 let activeTechFilter = null;
@@ -121,11 +122,16 @@ async function loadData() {
         
         const rawJobs = await response.json();
         
-        ALL_JOBS = rawJobs.map(job => ({
-            ...job,
-            isMember: KODA_MEMBERS.includes(job.company),
-            matchedCategories: matchCategories(job.title, job.techStack)
-        }));
+        ALL_JOBS = rawJobs.map(job => {
+            // 게시일이 없으면 오늘 날짜를 기본값으로 설정 (전문가 조언 반영)
+            const todayStr = new Date().toISOString().split('T')[0];
+            return {
+                ...job,
+                posted_date: job.posted_date || todayStr,
+                isMember: KODA_MEMBERS.includes(job.company),
+                matchedCategories: matchCategories(job.title, job.techStack)
+            };
+        });
         
         applyFilters(); 
         renderTable(); 
@@ -153,6 +159,12 @@ function renderJobs(jobs) {
         
         let kodaBadge = job.isMember ? `<span class="koda-badge">[KODA 회원사]</span>` : '';
         
+        // 마감 임박 체크 (3일 이내)
+        const daysLeft = getDaysLeft(job.deadline);
+        let urgentBadge = (daysLeft !== '∞' && daysLeft !== '마감' && daysLeft <= 3) 
+            ? `<span class="urgent-badge">마감임박</span>` 
+            : '';
+        
         // 플랫폼 아이콘 (간이 처리)
         let platformIcon = job.platform === 'Saramin' 
             ? 'https://www.saramin.co.kr/favicon.ico' 
@@ -169,6 +181,7 @@ function renderJobs(jobs) {
                 <div class="company-wrapper">
                     <span class="company-name">${job.company}</span>
                     ${kodaBadge}
+                    ${urgentBadge}
                 </div>
                 <span class="badge">${job.deadline === '상시채용' ? '상시채용' : 'D-' + getDaysLeft(job.deadline)}</span>
             </div>
@@ -270,6 +283,9 @@ function applyFilters() {
     const checkedExps = Array.from(expFilters).filter(cb => cb.checked).map(cb => cb.value);
     const selectedLocation = locationFilter.value;
     const isKodaOnly = kodaaFilter.checked; 
+    const selectedDateMonth = dateFilter.value;
+
+    const today = new Date();
 
     let filtered = ALL_JOBS.filter(job => {
         // 검색어: 제목, 회사명, 그리고 매칭된 직무 카테고리 포함 확인
@@ -282,7 +298,17 @@ function applyFilters() {
         let matchesTech = !activeTechFilter || (job.matchedCategories && job.matchedCategories.includes(activeTechFilter));
         let matchesKoda = !isKodaOnly || job.isMember === true;
 
-        return matchesSearch && matchesExp && matchesLoc && matchesTech && matchesKoda;
+        // 게시 기간 필터링 로직
+        let matchesDate = true;
+        if (selectedDateMonth !== 'all') {
+            const months = parseInt(selectedDateMonth);
+            const postDate = new Date(job.posted_date);
+            const cutoffDate = new Date();
+            cutoffDate.setMonth(today.getMonth() - months);
+            matchesDate = postDate >= cutoffDate;
+        }
+
+        return matchesSearch && matchesExp && matchesLoc && matchesTech && matchesKoda && matchesDate;
     });
     
     // 정렬: 인증 회원사 우선 노출
@@ -306,6 +332,7 @@ expFilters.forEach(cb => cb.addEventListener('change', applyFilters));
 locationFilter.addEventListener('change', applyFilters);
 kodaaFilter.addEventListener('change', applyFilters);
 sortFilter.addEventListener('change', applyFilters);
+dateFilter.addEventListener('change', applyFilters);
 
 techChips.forEach(chip => {
     chip.addEventListener('click', () => {

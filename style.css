@@ -351,6 +351,16 @@ body {
     border: 1px solid #BFDBFE;
 }
 
+.urgent-badge {
+    background: #FEF2F2;
+    color: #EF4444;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    font-weight: 800;
+    border: 1px solid #FECACA;
+}
+
 .platform-icon {
     position: absolute;
     top: 1.5rem;

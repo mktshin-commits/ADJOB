@@ -10,6 +10,7 @@
         "isMember": true,
         "category": "퍼포먼스 마케팅",
         "deadline": "2026-05-15",
+        "posted_date": "2026-04-20",
         "techStack": ["GA4", "SQL", "Tableau"],
         "isUrgent": true
     },
@@ -24,6 +25,7 @@
         "isMember": true,
         "category": "브랜드 마케팅",
         "deadline": "2026-05-20",
+        "posted_date": "2026-04-15",
         "techStack": ["프로젝트 관리", "영어"],
         "isUrgent": false
     },
@@ -38,6 +40,7 @@
         "isMember": true,
         "category": "미디어 플래닝",
         "deadline": "2026-04-30",
+        "posted_date": "2026-03-10",
         "techStack": ["Excel", "미디어 믹스"],
         "isUrgent": true
     },
@@ -52,6 +55,7 @@
         "isMember": false,
         "category": "콘텐츠 마케팅",
         "deadline": "상시채용",
+        "posted_date": "2026-04-05",
         "techStack": ["Youtube", "Premiere"],
         "isUrgent": false
     },
@@ -66,6 +70,7 @@
         "isMember": true,
         "category": "브랜드 마케팅",
         "deadline": "2026-05-05",
+        "posted_date": "2026-02-20",
         "techStack": ["마케팅 전략", "PT 능력"],
         "isUrgent": false
     },
@@ -80,6 +85,7 @@
         "isMember": false,
         "category": "퍼포먼스 마케팅",
         "deadline": "2026-05-10",
+        "posted_date": "2026-04-24",
         "techStack": ["SA", "네이버 광고"],
         "isUrgent": false
     }
