@@ -271,8 +271,14 @@ function renderTable() {
             return days !== '마감';
         });
         
+        let totalHiringCount = 0;
         let minDays = 9999; // 기본값 (아주 먼 미래)
+        
         activeJobs.forEach(job => {
+            // 채용 인원 추산 (0명 -> 1.5명, 그 외 -> 1.0명)
+            const hiring = (job.title.includes('0명') || job.title.includes('○명')) ? 1.5 : 1.0;
+            totalHiringCount += hiring;
+
             const days = getDaysLeft(job.deadline);
             const daysNum = days === '∞' ? 999 : parseInt(days);
             if (!isNaN(daysNum) && daysNum < minDays) minDays = daysNum;
@@ -281,6 +287,7 @@ function renderTable() {
         return {
             name: company,
             jobCount: activeJobs.length,
+            hiringCount: Math.floor(totalHiringCount),
             minDays: minDays
         };
     });
@@ -317,7 +324,7 @@ function renderTable() {
         tr.innerHTML = `
             <td>${index + 1}</td>
             <td style="font-weight: 700;">${member.name}</td>
-            <td>${member.jobCount}건</td>
+            <td>${member.jobCount}건 <span style="font-size:0.8rem; color:var(--text-muted);">(${member.hiringCount}명)</span></td>
             <td>${statusHtml}</td>
             <td>${actionHtml}</td>
         `;
@@ -360,7 +367,10 @@ function renderStatsView() {
     const trendText = trendPercent >= 0 ? `+${trendPercent}%` : `${trendPercent}%`;
     const trendColor = trendPercent >= 0 ? '#10B981' : '#EF4444';
 
-    document.getElementById('thisMonthJobs').textContent = `${jobsThisMonth.length}건`;
+    // 채용 인원 추산 합계 (이번 달)
+    const thisMonthHiring = jobsThisMonth.reduce((acc, j) => acc + ((j.title.includes('0명') || j.title.includes('○명')) ? 1.5 : 1.0), 0);
+
+    document.getElementById('thisMonthJobs').textContent = `${jobsThisMonth.length}건 (${Math.floor(thisMonthHiring)}명)`;
     const monthTrendEl = document.getElementById('monthTrend');
     monthTrendEl.textContent = `전월 대비 ${trendText}`;
     monthTrendEl.style.color = trendColor;
@@ -470,9 +480,10 @@ function renderStatsView() {
             companyStats[j.company] = { count: 0, categories: {}, isMember: j.isMember };
         }
         // 채용 인원 추정 로직 (팁 반영)
-        // 0명이면 1.5명, 그 외는 1명으로 계산 (간이 합산)
-        const hiringEstimate = j.title.includes('0명') ? 1.5 : 1.0;
+        // 0명/○명이면 1.5명, 그 외는 1명으로 계산
+        const hiringEstimate = (j.title.includes('0명') || j.title.includes('○명')) ? 1.5 : 1.0;
         companyStats[j.company].count += hiringEstimate;
+        companyStats[j.company].postingCount = (companyStats[j.company].postingCount || 0) + 1;
         
         j.matchedCategories.forEach(c => {
             companyStats[j.company].categories[c] = (companyStats[j.company].categories[c] || 0) + 1;
@@ -488,7 +499,7 @@ function renderStatsView() {
         tr.innerHTML = `
             <td><span class="rank-badge">${i + 1}</span></td>
             <td style="font-weight:700;">${name}</td>
-            <td>${Math.floor(data.count)}건+</td>
+            <td>${data.postingCount}건 <span style="font-size:0.8rem; color:var(--text-muted);">(${Math.floor(data.count)}명)</span></td>
             <td>${topCat}</td>
             <td>${data.isMember ? '✨ KODA' : '-'}</td>
         `;
