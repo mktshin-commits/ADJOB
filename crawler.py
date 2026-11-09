@@ -4,6 +4,7 @@ import json
 import time
 import random
 import re
+import datetime
 
 # 1. 직무 분류 사전 설정 (카테고리별 키워드)
 CATEGORY_KEYWORDS = {
@@ -19,6 +20,63 @@ USER_AGENTS = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
 ]
+
+
+def normalize_deadline(raw, today=None):
+    """사람인·잡코리아가 주는 마감 표기를 YYYY-MM-DD 또는 '상시채용'으로 정규화한다.
+    ('~ 12/04(금)', '내일마감', '오늘마감', '채용시마감' 등)"""
+    today = today or datetime.date.today()
+    if not raw:
+        return "상시채용"
+    raw = str(raw).strip()
+    if any(k in raw for k in ("상시", "채용시", "수시")):
+        return "상시채용"
+    if "오늘" in raw:
+        return today.isoformat()
+    if "내일" in raw:
+        return (today + datetime.timedelta(days=1)).isoformat()
+
+    m = re.search(r'(\d{4})[-./](\d{1,2})[-./](\d{1,2})', raw)
+    if m:
+        try:
+            return datetime.date(int(m.group(1)), int(m.group(2)), int(m.group(3))).isoformat()
+        except ValueError:
+            return "상시채용"
+
+    m = re.search(r'(\d{1,2})\s*[/.]\s*(\d{1,2})', raw)
+    if m:
+        month, day = int(m.group(1)), int(m.group(2))
+        try:
+            d = datetime.date(today.year, month, day)
+        except ValueError:
+            return "상시채용"
+        # 연말/연초 표기 보정: 6개월 이상 과거면 내년 공고로 본다
+        if (today - d).days > 180:
+            try:
+                d = datetime.date(today.year + 1, month, day)
+            except ValueError:
+                pass
+        return d.isoformat()
+
+    return "상시채용"
+
+
+def normalize_posted(raw, today=None):
+    """'등록일 26/11/04' 같은 표기를 YYYY-MM-DD로 정규화한다."""
+    today = today or datetime.date.today()
+    if not raw:
+        return today.isoformat()
+    m = re.search(r'(\d{2,4})[-./](\d{1,2})[-./](\d{1,2})', str(raw))
+    if not m:
+        return today.isoformat()
+    year, month, day = int(m.group(1)), int(m.group(2)), int(m.group(3))
+    if year < 100:
+        year += 2000
+    try:
+        return datetime.date(year, month, day).isoformat()
+    except ValueError:
+        return today.isoformat()
+
 
 # 확장된 검색 키워드 리스트
 SEARCH_KEYWORDS = ["광고 대행사", "디지털 대행사", "미디어렙", "퍼포먼스 마케팅", "종합 광고 대행사"]
@@ -62,7 +120,8 @@ def crawl_jobkorea(keyword):
                 # 부가 정보 (경력, 지역, 마감일)
                 exp = job.select_one('.experience').text.strip() if job.select_one('.experience') else "경력무관"
                 loc = job.select_one('.location').text.strip() if job.select_one('.location') else "전국"
-                deadline = job.select_one('.date').text.strip() if job.select_one('.date') else "상시채용"
+                deadline_el = job.select_one('.date')
+                deadline = normalize_deadline(deadline_el.text if deadline_el else "")
                 
                 results.append({
                     "platform": "JobKorea",
@@ -107,7 +166,10 @@ def crawl_saramin(keyword):
                 loc = conditions[0].text.strip() if len(conditions) > 0 else "전국"
                 exp = conditions[1].text.strip() if len(conditions) > 1 else "경력무관"
                 
-                deadline = job.select_one('.area_job .job_date .date').text.strip() if job.select_one('.area_job .job_date .date') else "상시채용"
+                deadline_el = job.select_one('.job_date .date')
+                deadline = normalize_deadline(deadline_el.text if deadline_el else "")
+                posted_el = job.select_one('.job_sector .job_day')
+                posted = normalize_posted(posted_el.text if posted_el else "")
                 
                 results.append({
                     "platform": "Saramin",
@@ -117,6 +179,7 @@ def crawl_saramin(keyword):
                     "experience": [exp],
                     "location": loc,
                     "deadline": deadline,
+                    "posted_date": posted,
                     "url": link,
                     "techStack": [],
                     "isMember": False
@@ -148,18 +211,23 @@ def save_to_json(new_data):
         existing_data = []
 
     existing_urls = {item['url'] for item in existing_data}
+    # 같은 공고가 검색어마다 다른 URL로 잡히므로 (회사명, 제목)으로도 중복을 막는다
+    existing_keys = {(item.get('company', '').strip(), item.get('title', '').strip()) for item in existing_data}
     
     added_count = 0
     for item in new_data:
-        if item['url'] not in existing_urls:
-            # 회원사 여부 체크 (회사명 포함 여부로 판별)
-            item['isMember'] = any(m in item['company'] or item['company'] in m for m in members)
-            item['posted_date'] = today_str
-            # ID 부여 (역순 정렬을 위해)
-            item['id'] = len(existing_data) + 1
-            existing_data.append(item)
-            existing_urls.add(item['url'])
-            added_count += 1
+        key = (item.get('company', '').strip(), item.get('title', '').strip())
+        if item['url'] in existing_urls or key in existing_keys:
+            continue
+        # 회원사 여부 체크 (회사명 포함 여부로 판별)
+        item['isMember'] = any(m in item['company'] or item['company'] in m for m in members)
+        item['posted_date'] = item.get('posted_date') or today_str
+        # ID 부여 (역순 정렬을 위해)
+        item['id'] = len(existing_data) + 1
+        existing_data.append(item)
+        existing_urls.add(item['url'])
+        existing_keys.add(key)
+        added_count += 1
 
     try:
         with open(file_path, 'w', encoding='utf-8') as f:
