@@ -3,7 +3,9 @@
         "platform": "JobKorea",
         "company": "제일기획",
         "title": "글로벌 비즈니스 퍼포먼스 마케터 채용",
-        "experience": ["경력 3년 이상"],
+        "experience": [
+            "경력 3년 이상"
+        ],
         "location": "서울 용산구",
         "salary": "면접 후 결정",
         "url": "https://www.jobkorea.co.kr/Search/?stext=제일기획",
@@ -11,14 +13,21 @@
         "category": "퍼포먼스 마케팅",
         "deadline": "2026-05-15",
         "posted_date": "2026-04-20",
-        "techStack": ["GA4", "SQL", "Tableau"],
+        "techStack": [
+            "GA4",
+            "SQL",
+            "Tableau"
+        ],
         "isUrgent": true
     },
     {
         "platform": "JobKorea",
         "company": "이노션",
         "title": "브랜드 마케팅 AE 신입/경력",
-        "experience": ["신입", "경력"],
+        "experience": [
+            "신입",
+            "경력"
+        ],
         "location": "서울 강남구",
         "salary": "회사 내규에 따름",
         "url": "https://www.jobkorea.co.kr/Search/?stext=이노션",
@@ -26,14 +35,19 @@
         "category": "브랜드 마케팅",
         "deadline": "2026-05-20",
         "posted_date": "2026-04-15",
-        "techStack": ["프로젝트 관리", "영어"],
+        "techStack": [
+            "프로젝트 관리",
+            "영어"
+        ],
         "isUrgent": false
     },
     {
         "platform": "JobKorea",
         "company": "나스미디어",
         "title": "디지털 미디어 플래너 모집",
-        "experience": ["경력 3년 이상"],
+        "experience": [
+            "경력 3년 이상"
+        ],
         "location": "서울 강남구",
         "salary": "면접 후 결정",
         "url": "https://www.jobkorea.co.kr/Search/?stext=나스미디어",
@@ -41,14 +55,19 @@
         "category": "미디어 플래닝",
         "deadline": "2026-04-30",
         "posted_date": "2026-03-10",
-        "techStack": ["Excel", "미디어 믹스"],
+        "techStack": [
+            "Excel",
+            "미디어 믹스"
+        ],
         "isUrgent": true
     },
     {
         "platform": "JobKorea",
         "company": "스타트업코리아",
         "title": "콘텐츠 마케터(유튜브 기획)",
-        "experience": ["신입"],
+        "experience": [
+            "신입"
+        ],
         "location": "서울 서초구",
         "salary": "3000만원 이상",
         "url": "https://www.jobkorea.co.kr/Search/?stext=스타트업",
@@ -56,14 +75,19 @@
         "category": "콘텐츠 마케팅",
         "deadline": "상시채용",
         "posted_date": "2026-04-05",
-        "techStack": ["Youtube", "Premiere"],
+        "techStack": [
+            "Youtube",
+            "Premiere"
+        ],
         "isUrgent": false
     },
     {
         "platform": "JobKorea",
         "company": "대홍기획",
         "title": "디지털 캠페인 전략 기획자",
-        "experience": ["경력 5년 이상"],
+        "experience": [
+            "경력 5년 이상"
+        ],
         "location": "서울 중구",
         "salary": "면접 후 결정",
         "url": "https://www.jobkorea.co.kr/Search/?stext=대홍기획",
@@ -71,14 +95,19 @@
         "category": "브랜드 마케팅",
         "deadline": "2026-05-05",
         "posted_date": "2026-02-20",
-        "techStack": ["마케팅 전략", "PT 능력"],
+        "techStack": [
+            "마케팅 전략",
+            "PT 능력"
+        ],
         "isUrgent": false
     },
     {
         "platform": "JobKorea",
         "company": "글로벌애드",
         "title": "검색광고(SA) 운영 매니저",
-        "experience": ["경력 1~3년"],
+        "experience": [
+            "경력 1~3년"
+        ],
         "location": "서울 마포구",
         "salary": "면접 후 결정",
         "url": "https://www.saramin.co.kr/zf_user/search?searchword=글로벌애드",
@@ -86,23 +115,3369 @@
         "category": "퍼포먼스 마케팅",
         "deadline": "2026-05-10",
         "posted_date": "2026-04-24",
-        "techStack": ["SA", "네이버 광고"],
+        "techStack": [
+            "SA",
+            "네이버 광고"
+        ],
         "isUrgent": false
     },
     {
         "platform": "JobKorea",
         "company": "하쿠호도제일",
         "title": "하쿠호도제일 미디어솔루션팀 리더 모집",
-        "experience": ["경력 10년 이상"],
+        "experience": [
+            "경력 10년 이상"
+        ],
         "location": "서울 마포구",
         "salary": "면접 후 결정",
         "url": "https://www.jobkorea.co.kr/Search/?stext=하쿠호도제일",
         "isMember": true,
-        "matchedCategories": ["기획/전략", "테크/AI"],
+        "matchedCategories": [
+            "기획/전략",
+            "테크/AI"
+        ],
         "deadline": "2026-05-03",
         "posted_date": "2026-04-03",
-        "techStack": ["미디어 솔루션", "리더십"],
+        "techStack": [
+            "미디어 솔루션",
+            "리더십"
+        ],
         "isUrgent": false,
         "id": 999
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)와이트라이브",
+        "title": "[광고대행사/마케팅영업]광고 기획/관리 담당자 채용(신입/경력)",
+        "matchedCategories": [
+            "기획/전략"
+        ],
+        "experience": [
+            "신입·경력"
+        ],
+        "location": "경기 부천시",
+        "deadline": "2026-12-03",
+        "posted_date": "2026-11-20",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55479238&location=ts&searchword=%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=72e3a6e2-84a2-493b-8396-eb5b275a8300",
+        "techStack": [],
+        "isMember": false,
+        "id": 8
+    },
+    {
+        "platform": "Saramin",
+        "company": "주식회사포스탠드",
+        "title": "[광고대행사] 경영지원팀(인사총무) 신입&경력 채용",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력무관"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2027-01-19",
+        "posted_date": "2026-11-20",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55629917&location=ts&searchword=%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=72e3a6e2-84a2-493b-8396-eb5b275a8300",
+        "techStack": [],
+        "isMember": false,
+        "id": 9
+    },
+    {
+        "platform": "Saramin",
+        "company": "레오버넷(주)",
+        "title": "외국계 광고대행사] 지급담당자(AP) 채용",
+        "matchedCategories": [
+            "기획/전략"
+        ],
+        "experience": [
+            "신입·경력"
+        ],
+        "location": "서울 중구",
+        "deadline": "상시채용",
+        "posted_date": "2026-11-20",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55630376&location=ts&searchword=%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=72e3a6e2-84a2-493b-8396-eb5b275a8300",
+        "techStack": [],
+        "isMember": false,
+        "id": 10
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)엠서치마케팅",
+        "title": "[엠서치마케팅] 광고대행사 경영지원(총무/세무) 채용",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "신입·경력"
+        ],
+        "location": "서울 금천구",
+        "deadline": "2026-12-31",
+        "posted_date": "2026-11-17",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55597899&location=ts&searchword=%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=72e3a6e2-84a2-493b-8396-eb5b275a8300",
+        "techStack": [],
+        "isMember": true,
+        "id": 11
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)엑서스",
+        "title": "종합광고대행사 마케터 채용[경력]",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력무관"
+        ],
+        "location": "서울 마포구",
+        "deadline": "2026-11-28",
+        "posted_date": "2026-11-13",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55301778&location=ts&searchword=%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=72e3a6e2-84a2-493b-8396-eb5b275a8300",
+        "techStack": [],
+        "isMember": false,
+        "id": 12
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)텔빅스",
+        "title": "퍼포먼스마케터 광고대행사[주30시간]",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "신입·경력"
+        ],
+        "location": "서울 금천구",
+        "deadline": "2026-12-08",
+        "posted_date": "2026-11-09",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55518887&location=ts&searchword=%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=72e3a6e2-84a2-493b-8396-eb5b275a8300",
+        "techStack": [],
+        "isMember": false,
+        "id": 13
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)쉬움컴퍼니",
+        "title": "광고대행사 경영지원팀 (회계/세무/재무/총무/경리) 정규직",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력무관"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2026-12-04",
+        "posted_date": "2026-11-04",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55479540&location=ts&searchword=%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=72e3a6e2-84a2-493b-8396-eb5b275a8300",
+        "techStack": [],
+        "isMember": false,
+        "id": 14
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)어반티",
+        "title": "종합광고대행사 영상편집자 채용(인원충원)",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력무관"
+        ],
+        "location": "서울 광진구",
+        "deadline": "2026-12-03",
+        "posted_date": "2026-11-04",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55472287&location=ts&searchword=%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=72e3a6e2-84a2-493b-8396-eb5b275a8300",
+        "techStack": [],
+        "isMember": false,
+        "id": 15
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)웨이브웍스",
+        "title": "홍대역 광고대행사 AE(전략 기획/콘텐츠 에디팅)님을 모십니다",
+        "matchedCategories": [
+            "기획/전략",
+            "소셜/콘텐츠"
+        ],
+        "experience": [
+            "경력무관"
+        ],
+        "location": "서울 마포구",
+        "deadline": "2026-12-17",
+        "posted_date": "2026-11-17",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55600082&location=ts&searchword=%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=72e3a6e2-84a2-493b-8396-eb5b275a8300",
+        "techStack": [],
+        "isMember": false,
+        "id": 16
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)일그램",
+        "title": "[디지털 광고대행사 일그램] 브랜드 마케팅 AE 채용",
+        "matchedCategories": [
+            "기획/전략"
+        ],
+        "experience": [
+            "신입·경력"
+        ],
+        "location": "서울 광진구",
+        "deadline": "2026-12-16",
+        "posted_date": "2026-11-16",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55584327&location=ts&searchword=%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=72e3a6e2-84a2-493b-8396-eb5b275a8300",
+        "techStack": [],
+        "isMember": false,
+        "id": 17
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)쇼니버스",
+        "title": "[쇼니버스] 콘텐츠광고대행사 매거진 에디터 채용",
+        "matchedCategories": [
+            "소셜/콘텐츠"
+        ],
+        "experience": [
+            "경력무관"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2026-12-20",
+        "posted_date": "2026-11-20",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55634075&location=ts&searchword=%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=72e3a6e2-84a2-493b-8396-eb5b275a8300",
+        "techStack": [],
+        "isMember": false,
+        "id": 18
+    },
+    {
+        "platform": "Saramin",
+        "company": "포루스기획",
+        "title": "[온라인 광고대행사] 퍼포먼스 마케터 신입 및 경력 채용",
+        "matchedCategories": [
+            "퍼포먼스"
+        ],
+        "experience": [
+            "신입·경력"
+        ],
+        "location": "서울 중랑구",
+        "deadline": "2026-11-30",
+        "posted_date": "2026-11-20",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55472812&location=ts&searchword=%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=72e3a6e2-84a2-493b-8396-eb5b275a8300",
+        "techStack": [],
+        "isMember": false,
+        "id": 19
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)미바이오텍",
+        "title": "[신입·경력] 병원,기업 광고대행사 · IMC마케팅 · 콘텐츠기획",
+        "matchedCategories": [
+            "기획/전략",
+            "소셜/콘텐츠"
+        ],
+        "experience": [
+            "경력무관"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2026-12-13",
+        "posted_date": "2026-11-13",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55567258&location=ts&searchword=%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=72e3a6e2-84a2-493b-8396-eb5b275a8300",
+        "techStack": [],
+        "isMember": false,
+        "id": 20
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)마케팅키드",
+        "title": "광고대행사 경영지원팀  인사총무 담당자 경력 채용",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력2년↑"
+        ],
+        "location": "서울 금천구",
+        "deadline": "2026-12-19",
+        "posted_date": "2026-11-19",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55621777&location=ts&searchword=%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=72e3a6e2-84a2-493b-8396-eb5b275a8300",
+        "techStack": [],
+        "isMember": false,
+        "id": 21
+    },
+    {
+        "platform": "Saramin",
+        "company": "올어바웃로컬",
+        "title": "[신입/경력] 광고대행사 경영지원 직원 채용 (경력자 우대)",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력무관"
+        ],
+        "location": "부산 해운대구",
+        "deadline": "상시채용",
+        "posted_date": "2026-11-11",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55545151&location=ts&searchword=%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=72e3a6e2-84a2-493b-8396-eb5b275a8300",
+        "techStack": [],
+        "isMember": false,
+        "id": 22
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)애드픽션",
+        "title": "[10시출근 5시퇴근] 네이버 공식 파트너사 온라인 광고대행사",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력무관"
+        ],
+        "location": "서울 금천구",
+        "deadline": "2026-12-09",
+        "posted_date": "2026-11-11",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55522784&location=ts&searchword=%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=72e3a6e2-84a2-493b-8396-eb5b275a8300",
+        "techStack": [],
+        "isMember": false,
+        "id": 23
+    },
+    {
+        "platform": "Saramin",
+        "company": "피앤알커뮤니케이션(주)",
+        "title": "[광고 대행사] 영상 촬영·편집 PD 모집 / 대구",
+        "matchedCategories": [
+            "크리에이티브"
+        ],
+        "experience": [
+            "경력무관"
+        ],
+        "location": "대구 동구",
+        "deadline": "2027-01-18",
+        "posted_date": "2026-11-19",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55619156&location=ts&searchword=%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=72e3a6e2-84a2-493b-8396-eb5b275a8300",
+        "techStack": [],
+        "isMember": false,
+        "id": 24
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)미담기획",
+        "title": "종합광고대행사 플랫폼 사업부 웹 서비스 운영 기획자 채용",
+        "matchedCategories": [
+            "기획/전략"
+        ],
+        "experience": [
+            "경력"
+        ],
+        "location": "서울 구로구",
+        "deadline": "2026-12-16",
+        "posted_date": "2026-11-16",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55584471&location=ts&searchword=%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=72e3a6e2-84a2-493b-8396-eb5b275a8300",
+        "techStack": [],
+        "isMember": false,
+        "id": 25
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)스마일코리아",
+        "title": "배우면서 일하는 NAVER공식 광고대행사 광고마케팅 신입 AE",
+        "matchedCategories": [
+            "기획/전략"
+        ],
+        "experience": [
+            "경력무관"
+        ],
+        "location": "서울 금천구",
+        "deadline": "2026-12-16",
+        "posted_date": "2026-11-16",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55579599&location=ts&searchword=%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=72e3a6e2-84a2-493b-8396-eb5b275a8300",
+        "techStack": [],
+        "isMember": true,
+        "id": 26
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)미래아이엔씨",
+        "title": "퍼포먼스 마케팅 광고대행사 AE채용 2본부",
+        "matchedCategories": [
+            "기획/전략",
+            "퍼포먼스"
+        ],
+        "experience": [
+            "경력무관"
+        ],
+        "location": "서울 금천구",
+        "deadline": "상시채용",
+        "posted_date": "2026-11-20",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55253367&location=ts&searchword=%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=72e3a6e2-84a2-493b-8396-eb5b275a8300",
+        "techStack": [],
+        "isMember": true,
+        "id": 27
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)드림인사이트",
+        "title": "[코스닥상장사] 광고대행사 모션그래픽 디자이너 채용",
+        "matchedCategories": [
+            "크리에이티브"
+        ],
+        "experience": [
+            "경력6년↑"
+        ],
+        "location": "서울 구로구",
+        "deadline": "2026-12-19",
+        "posted_date": "2026-10-20",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55344585&location=ts&searchword=%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=72e3a6e2-84a2-493b-8396-eb5b275a8300",
+        "techStack": [],
+        "isMember": true,
+        "id": 28
+    },
+    {
+        "platform": "Saramin",
+        "company": "㈜인컴이즈",
+        "title": "[인컴이즈] 광고대행사 신입사원 모집",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력무관"
+        ],
+        "location": "서울 성동구",
+        "deadline": "상시채용",
+        "posted_date": "2026-10-06",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55213202&location=ts&searchword=%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=72e3a6e2-84a2-493b-8396-eb5b275a8300",
+        "techStack": [],
+        "isMember": false,
+        "id": 29
+    },
+    {
+        "platform": "Saramin",
+        "company": "레오버넷(주)",
+        "title": "외국계 광고대행사] 청구 담당자(Billing) 채용",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력5년↑"
+        ],
+        "location": "서울 중구",
+        "deadline": "상시채용",
+        "posted_date": "2026-11-20",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55630585&location=ts&searchword=%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=72e3a6e2-84a2-493b-8396-eb5b275a8300",
+        "techStack": [],
+        "isMember": false,
+        "id": 30
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)나무온",
+        "title": "광고대행사 웹디자이너 컨텐츠 디자이너 구인  (경력 2년 이상)",
+        "matchedCategories": [
+            "크리에이티브"
+        ],
+        "experience": [
+            "경력2년↑"
+        ],
+        "location": "서울 동작구",
+        "deadline": "상시채용",
+        "posted_date": "2026-11-04",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55483279&location=ts&searchword=%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=72e3a6e2-84a2-493b-8396-eb5b275a8300",
+        "techStack": [],
+        "isMember": false,
+        "id": 31
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)애드제노",
+        "title": "부산 온라인 퍼포먼스광고 대행사 - AE 모집",
+        "matchedCategories": [
+            "기획/전략"
+        ],
+        "experience": [
+            "신입·경력"
+        ],
+        "location": "부산 부산진구",
+        "deadline": "2026-11-22",
+        "posted_date": "2026-11-11",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55545951&location=ts&searchword=%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=72e3a6e2-84a2-493b-8396-eb5b275a8300",
+        "techStack": [],
+        "isMember": false,
+        "id": 32
+    },
+    {
+        "platform": "Saramin",
+        "company": "피앤알커뮤니케이션(주)",
+        "title": "[광고 대행사] 마케팅 AE 기획자 모집 / 대구",
+        "matchedCategories": [
+            "기획/전략"
+        ],
+        "experience": [
+            "경력 1~7년"
+        ],
+        "location": "대구 동구",
+        "deadline": "2027-01-11",
+        "posted_date": "2026-11-12",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55554089&location=ts&searchword=%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=72e3a6e2-84a2-493b-8396-eb5b275a8300",
+        "techStack": [],
+        "isMember": false,
+        "id": 33
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)미쓰윤",
+        "title": "[미쓰윤] 광고대행사 크리에이티브 디렉터(CD) 경력 채용",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력 3~7년"
+        ],
+        "location": "서울 서초구",
+        "deadline": "2026-12-19",
+        "posted_date": "2026-11-20",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55627573&location=ts&searchword=%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=72e3a6e2-84a2-493b-8396-eb5b275a8300",
+        "techStack": [],
+        "isMember": false,
+        "id": 34
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)브랜드바이브",
+        "title": "종합광고대행사 광고PM 경력 모집",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력 3~7년"
+        ],
+        "location": "서울 중구",
+        "deadline": "2026-12-13",
+        "posted_date": "2026-11-14",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55565222&location=ts&searchword=%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=72e3a6e2-84a2-493b-8396-eb5b275a8300",
+        "techStack": [],
+        "isMember": false,
+        "id": 35
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)와이우즈",
+        "title": "광고대행사 디지털 마케팅AE (경력3년↑)",
+        "matchedCategories": [
+            "기획/전략"
+        ],
+        "experience": [
+            "경력3년↑"
+        ],
+        "location": "경기 고양시",
+        "deadline": "2026-12-04",
+        "posted_date": "2026-11-09",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55494397&location=ts&searchword=%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=72e3a6e2-84a2-493b-8396-eb5b275a8300",
+        "techStack": [],
+        "isMember": false,
+        "id": 36
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)엠제이코리아",
+        "title": "[강남/주4.5일/전환검토]글로벌 광고대행사 미디어플래너 채용",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력무관"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2026-11-29",
+        "posted_date": "2026-10-30",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55441484&location=ts&searchword=%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=72e3a6e2-84a2-493b-8396-eb5b275a8300",
+        "techStack": [],
+        "isMember": false,
+        "id": 37
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)엠제이코리아",
+        "title": "[강남/주4.5일/정규전환]광고대행사 유명 광고주 담당 채용",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력무관"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2026-12-17",
+        "posted_date": "2026-11-17",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55599258&location=ts&searchword=%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=72e3a6e2-84a2-493b-8396-eb5b275a8300",
+        "techStack": [],
+        "isMember": false,
+        "id": 38
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)어센드미디어",
+        "title": "[광고대행사] 콘텐츠마케터 채용",
+        "matchedCategories": [
+            "소셜/콘텐츠"
+        ],
+        "experience": [
+            "경력3년↑"
+        ],
+        "location": "서울 금천구",
+        "deadline": "2026-12-11",
+        "posted_date": "2026-10-12",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55256701&location=ts&searchword=%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=72e3a6e2-84a2-493b-8396-eb5b275a8300",
+        "techStack": [],
+        "isMember": true,
+        "id": 39
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)위너케이",
+        "title": "광고대행사 위너케이 경영관리부 신입사원 채용",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "신입·경력"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2026-11-25",
+        "posted_date": "2026-10-26",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55390306&location=ts&searchword=%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=72e3a6e2-84a2-493b-8396-eb5b275a8300",
+        "techStack": [],
+        "isMember": false,
+        "id": 40
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)씨유기획",
+        "title": "[씨유기획] 광고대행사 AE 신입/경력직 채용",
+        "matchedCategories": [
+            "기획/전략"
+        ],
+        "experience": [
+            "신입·경력"
+        ],
+        "location": "서울 금천구",
+        "deadline": "2026-11-28",
+        "posted_date": "2026-10-29",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55425050&location=ts&searchword=%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=72e3a6e2-84a2-493b-8396-eb5b275a8300",
+        "techStack": [],
+        "isMember": false,
+        "id": 41
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)레드브릭스",
+        "title": "[광고대행사/경력] AI 기반 마케팅 PM/AE 채용, 운영 및 제작",
+        "matchedCategories": [
+            "기획/전략"
+        ],
+        "experience": [
+            "경력 2~10년"
+        ],
+        "location": "서울 금천구",
+        "deadline": "2026-11-22",
+        "posted_date": "2026-11-04",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55481867&location=ts&searchword=%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=72e3a6e2-84a2-493b-8396-eb5b275a8300",
+        "techStack": [],
+        "isMember": false,
+        "id": 42
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)위너케이",
+        "title": "광고대행사 AD(아트디렉터) 신입, 경력 채용",
+        "matchedCategories": [
+            "크리에이티브"
+        ],
+        "experience": [
+            "신입·경력"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2026-12-18",
+        "posted_date": "2026-11-18",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55611126&location=ts&searchword=%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=72e3a6e2-84a2-493b-8396-eb5b275a8300",
+        "techStack": [],
+        "isMember": false,
+        "id": 43
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)어센드미디어",
+        "title": "[광고대행사] 퍼포먼스 마케터 경력 AE 채용 (1년 이상)",
+        "matchedCategories": [
+            "기획/전략",
+            "퍼포먼스"
+        ],
+        "experience": [
+            "경력1년↑"
+        ],
+        "location": "서울 금천구",
+        "deadline": "2026-12-19",
+        "posted_date": "2026-11-19",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55620452&location=ts&searchword=%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=72e3a6e2-84a2-493b-8396-eb5b275a8300",
+        "techStack": [],
+        "isMember": true,
+        "id": 44
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)마스몬스터",
+        "title": "[종합광고대행사] 2D 디자이너 신입/경력 채용",
+        "matchedCategories": [
+            "크리에이티브"
+        ],
+        "experience": [
+            "경력무관"
+        ],
+        "location": "서울 서초구",
+        "deadline": "상시채용",
+        "posted_date": "2026-11-11",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55541448&location=ts&searchword=%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=72e3a6e2-84a2-493b-8396-eb5b275a8300",
+        "techStack": [],
+        "isMember": false,
+        "id": 45
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)키스톤마케팅컴퍼니",
+        "title": "광고대행사 게임 광고기획자(AE) (신입 및 경력 1~3년차)",
+        "matchedCategories": [
+            "기획/전략"
+        ],
+        "experience": [
+            "신입·경력"
+        ],
+        "location": "서울 서초구",
+        "deadline": "2026-12-11",
+        "posted_date": "2026-11-11",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55546762&location=ts&searchword=%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=72e3a6e2-84a2-493b-8396-eb5b275a8300",
+        "techStack": [],
+        "isMember": true,
+        "id": 46
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)하이디퍼런스",
+        "title": "[하이디] 디지털 광고대행사 디자이너 모집(경력)",
+        "matchedCategories": [
+            "크리에이티브"
+        ],
+        "experience": [
+            "경력 5~10년"
+        ],
+        "location": "서울 서초구",
+        "deadline": "2026-12-31",
+        "posted_date": "2026-11-12",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55558030&location=ts&searchword=%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=72e3a6e2-84a2-493b-8396-eb5b275a8300",
+        "techStack": [],
+        "isMember": false,
+        "id": 47
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)일그램",
+        "title": "[디지털 광고대행사 일그램/계약직] 브랜드 마케팅 AE 채용",
+        "matchedCategories": [
+            "기획/전략"
+        ],
+        "experience": [
+            "신입·경력"
+        ],
+        "location": "서울 광진구",
+        "deadline": "2026-12-18",
+        "posted_date": "2026-11-18",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55609893&location=ts&searchword=%EB%94%94%EC%A7%80%ED%84%B8+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=399abb84-41e3-45c2-a3f1-383f605a7ee4",
+        "techStack": [],
+        "isMember": false,
+        "id": 48
+    },
+    {
+        "platform": "Saramin",
+        "company": "펜타브리드",
+        "title": "디지털 광고대행사 아트디렉터(AD) 경력 채용",
+        "matchedCategories": [
+            "크리에이티브"
+        ],
+        "experience": [
+            "경력8년↑"
+        ],
+        "location": "서울 서초구",
+        "deadline": "2026-12-16",
+        "posted_date": "2026-11-16",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55581025&location=ts&searchword=%EB%94%94%EC%A7%80%ED%84%B8+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=399abb84-41e3-45c2-a3f1-383f605a7ee4",
+        "techStack": [],
+        "isMember": true,
+        "id": 49
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)유니코써치",
+        "title": "[디지털 종합광고대행사] HR 담당자 (7년 이상, 책임급)",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력7년↑"
+        ],
+        "location": "서울 강남구",
+        "deadline": "상시채용",
+        "posted_date": "2026-11-10",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55529139&location=ts&searchword=%EB%94%94%EC%A7%80%ED%84%B8+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=399abb84-41e3-45c2-a3f1-383f605a7ee4",
+        "techStack": [],
+        "isMember": false,
+        "id": 50
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)유니코써치",
+        "title": "[디지털 종합광고대행사] 디지털마케터 (AE 팀장급)",
+        "matchedCategories": [
+            "기획/전략"
+        ],
+        "experience": [
+            "경력7년↑"
+        ],
+        "location": "서울 강남구",
+        "deadline": "상시채용",
+        "posted_date": "2026-11-17",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55591410&location=ts&searchword=%EB%94%94%EC%A7%80%ED%84%B8+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=399abb84-41e3-45c2-a3f1-383f605a7ee4",
+        "techStack": [],
+        "isMember": false,
+        "id": 51
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)에이치알그룹",
+        "title": "[디지털광고대행사] 자사 커머스 서비스 기획 PM",
+        "matchedCategories": [
+            "기획/전략"
+        ],
+        "experience": [
+            "경력 3~6년"
+        ],
+        "location": "서울 강남구",
+        "deadline": "상시채용",
+        "posted_date": "2026-11-10",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55533284&location=ts&searchword=%EB%94%94%EC%A7%80%ED%84%B8+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=399abb84-41e3-45c2-a3f1-383f605a7ee4",
+        "techStack": [],
+        "isMember": false,
+        "id": 52
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)에이치알그룹",
+        "title": "[디지털광고대행사] 상품기획BM",
+        "matchedCategories": [
+            "기획/전략"
+        ],
+        "experience": [
+            "경력 3~8년"
+        ],
+        "location": "서울 강남구",
+        "deadline": "상시채용",
+        "posted_date": "2026-11-10",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55533332&location=ts&searchword=%EB%94%94%EC%A7%80%ED%84%B8+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=399abb84-41e3-45c2-a3f1-383f605a7ee4",
+        "techStack": [],
+        "isMember": false,
+        "id": 53
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)에이치알그룹",
+        "title": "[디지털광고대행사] 전략기획(AP)",
+        "matchedCategories": [
+            "기획/전략"
+        ],
+        "experience": [
+            "경력 3~6년"
+        ],
+        "location": "서울 강남구",
+        "deadline": "상시채용",
+        "posted_date": "2026-11-10",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55533368&location=ts&searchword=%EB%94%94%EC%A7%80%ED%84%B8+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=399abb84-41e3-45c2-a3f1-383f605a7ee4",
+        "techStack": [],
+        "isMember": false,
+        "id": 54
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)코마스인터렉티브",
+        "title": "[디지털 광고대행사]캠페인AE 경력직 모집",
+        "matchedCategories": [
+            "기획/전략"
+        ],
+        "experience": [
+            "경력 1~5년"
+        ],
+        "location": "서울 서초구",
+        "deadline": "2026-12-14",
+        "posted_date": "2026-10-15",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55302708&location=ts&searchword=%EB%94%94%EC%A7%80%ED%84%B8+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=399abb84-41e3-45c2-a3f1-383f605a7ee4",
+        "techStack": [],
+        "isMember": true,
+        "id": 55
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)코마스인터렉티브",
+        "title": "[디지털 광고대행사]퍼포먼스마케팅 AE 경력직(합격축하금지원)",
+        "matchedCategories": [
+            "기획/전략"
+        ],
+        "experience": [
+            "경력 1~8년"
+        ],
+        "location": "서울 서초구",
+        "deadline": "2026-12-26",
+        "posted_date": "2026-10-27",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55400242&location=ts&searchword=%EB%94%94%EC%A7%80%ED%84%B8+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=399abb84-41e3-45c2-a3f1-383f605a7ee4",
+        "techStack": [],
+        "isMember": true,
+        "id": 56
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)피너클써치",
+        "title": "[ 디지털마케팅 광고대행사 AE, 경력 10년 이상]",
+        "matchedCategories": [
+            "기획/전략"
+        ],
+        "experience": [
+            "경력10년↑"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2026-11-23",
+        "posted_date": "2026-11-22",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55580996&location=ts&searchword=%EB%94%94%EC%A7%80%ED%84%B8+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=399abb84-41e3-45c2-a3f1-383f605a7ee4",
+        "techStack": [],
+        "isMember": false,
+        "id": 57
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)피너클써치",
+        "title": "[국내 또는 글로벌 AE 경력직 - 유명 디지털 광고대행사]",
+        "matchedCategories": [
+            "기획/전략"
+        ],
+        "experience": [
+            "경력2년↑"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2026-11-23",
+        "posted_date": "2026-11-22",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55580977&location=ts&searchword=%EB%94%94%EC%A7%80%ED%84%B8+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=399abb84-41e3-45c2-a3f1-383f605a7ee4",
+        "techStack": [],
+        "isMember": false,
+        "id": 58
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)피너클써치",
+        "title": "[디지털 광고대행사] 기획팀장",
+        "matchedCategories": [
+            "기획/전략"
+        ],
+        "experience": [
+            "경력 7~10년"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2026-12-01",
+        "posted_date": "2026-11-16",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55587896&location=ts&searchword=%EB%94%94%EC%A7%80%ED%84%B8+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=399abb84-41e3-45c2-a3f1-383f605a7ee4",
+        "techStack": [],
+        "isMember": false,
+        "id": 59
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)피너클써치",
+        "title": "[ 글로벌 AE 경력직, 유명 디지털 광고대행사]",
+        "matchedCategories": [
+            "기획/전략"
+        ],
+        "experience": [
+            "경력2년↑"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2026-11-23",
+        "posted_date": "2026-11-20",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55588019&location=ts&searchword=%EB%94%94%EC%A7%80%ED%84%B8+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=399abb84-41e3-45c2-a3f1-383f605a7ee4",
+        "techStack": [],
+        "isMember": false,
+        "id": 60
+    },
+    {
+        "platform": "Saramin",
+        "company": "파워에이치알",
+        "title": "성수역소재 디지털 광고대행사 광고기획 AE",
+        "matchedCategories": [
+            "기획/전략"
+        ],
+        "experience": [
+            "경력 3~8년"
+        ],
+        "location": "서울 성동구",
+        "deadline": "2026-11-24",
+        "posted_date": "2026-11-22",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55515727&location=ts&searchword=%EB%94%94%EC%A7%80%ED%84%B8+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=399abb84-41e3-45c2-a3f1-383f605a7ee4",
+        "techStack": [],
+        "isMember": false,
+        "id": 61
+    },
+    {
+        "platform": "Saramin",
+        "company": "파워에이치알",
+        "title": "서울숲역 소재 디지털 광고대행사 앱 마케팅 담당",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력 1~6년"
+        ],
+        "location": "서울 성동구",
+        "deadline": "2026-11-25",
+        "posted_date": "2026-11-22",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55530777&location=ts&searchword=%EB%94%94%EC%A7%80%ED%84%B8+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=399abb84-41e3-45c2-a3f1-383f605a7ee4",
+        "techStack": [],
+        "isMember": false,
+        "id": 62
+    },
+    {
+        "platform": "Saramin",
+        "company": "파워에이치알",
+        "title": "강남소재 디지털 광고대행사 광고기획 AE",
+        "matchedCategories": [
+            "기획/전략"
+        ],
+        "experience": [
+            "경력 1~8년"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2026-11-25",
+        "posted_date": "2026-11-22",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55530787&location=ts&searchword=%EB%94%94%EC%A7%80%ED%84%B8+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=399abb84-41e3-45c2-a3f1-383f605a7ee4",
+        "techStack": [],
+        "isMember": false,
+        "id": 63
+    },
+    {
+        "platform": "Saramin",
+        "company": "파워에이치알",
+        "title": "강남소재 디지털 광고대행사 광고기획 과/차장급",
+        "matchedCategories": [
+            "기획/전략"
+        ],
+        "experience": [
+            "경력 5~15년"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2026-11-26",
+        "posted_date": "2026-11-22",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55540678&location=ts&searchword=%EB%94%94%EC%A7%80%ED%84%B8+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=399abb84-41e3-45c2-a3f1-383f605a7ee4",
+        "techStack": [],
+        "isMember": false,
+        "id": 64
+    },
+    {
+        "platform": "Saramin",
+        "company": "파워에이치알",
+        "title": "성수역 소재 디지털 광고대행사 퍼포먼스 마케팅 AE",
+        "matchedCategories": [
+            "기획/전략",
+            "퍼포먼스"
+        ],
+        "experience": [
+            "경력 3~10년"
+        ],
+        "location": "서울 성동구",
+        "deadline": "2026-12-03",
+        "posted_date": "2026-11-22",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55604619&location=ts&searchword=%EB%94%94%EC%A7%80%ED%84%B8+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=399abb84-41e3-45c2-a3f1-383f605a7ee4",
+        "techStack": [],
+        "isMember": false,
+        "id": 65
+    },
+    {
+        "platform": "Saramin",
+        "company": "파워에이치알",
+        "title": "성수역소재 디지털 광고대행사 콘텐츠 마케팅 대리/과장급",
+        "matchedCategories": [
+            "소셜/콘텐츠"
+        ],
+        "experience": [
+            "경력 3~7년"
+        ],
+        "location": "서울 성동구",
+        "deadline": "2026-12-05",
+        "posted_date": "2026-11-22",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55629426&location=ts&searchword=%EB%94%94%EC%A7%80%ED%84%B8+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=399abb84-41e3-45c2-a3f1-383f605a7ee4",
+        "techStack": [],
+        "isMember": false,
+        "id": 66
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)엠케이로드",
+        "title": "디지털/퍼포먼스 마케팅, 광고대행사 신입 / 경력 마케터채용",
+        "matchedCategories": [
+            "퍼포먼스"
+        ],
+        "experience": [
+            "경력무관"
+        ],
+        "location": "서울 노원구",
+        "deadline": "2026-12-11",
+        "posted_date": "2026-11-13",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55256913&location=ts&searchword=%EB%94%94%EC%A7%80%ED%84%B8+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=399abb84-41e3-45c2-a3f1-383f605a7ee4",
+        "techStack": [],
+        "isMember": false,
+        "id": 67
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)에이엠피엠글로벌",
+        "title": "[네이버, 카카오 공식대행사] 디지털광고마케터 채용",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력무관"
+        ],
+        "location": "서울 금천구",
+        "deadline": "2026-11-25",
+        "posted_date": "2026-11-16",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55503578&location=ts&searchword=%EB%94%94%EC%A7%80%ED%84%B8+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=399abb84-41e3-45c2-a3f1-383f605a7ee4",
+        "techStack": [],
+        "isMember": true,
+        "id": 68
+    },
+    {
+        "platform": "Saramin",
+        "company": "펜타브리드",
+        "title": "광고대행사 디지털마케팅 기획(AE) 경력 채용",
+        "matchedCategories": [
+            "기획/전략"
+        ],
+        "experience": [
+            "경력10년↑"
+        ],
+        "location": "서울 서초구",
+        "deadline": "2026-11-25",
+        "posted_date": "2026-10-26",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55386963&location=ts&searchword=%EB%94%94%EC%A7%80%ED%84%B8+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=399abb84-41e3-45c2-a3f1-383f605a7ee4",
+        "techStack": [],
+        "isMember": true,
+        "id": 69
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)이인벤션",
+        "title": "네이버/카카오 공식대행사 ㈜이인벤션 디지털 광고 마케터 채용",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "신입"
+        ],
+        "location": "서울 구로구",
+        "deadline": "2026-12-06",
+        "posted_date": "2026-11-06",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55501842&location=ts&searchword=%EB%94%94%EC%A7%80%ED%84%B8+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=399abb84-41e3-45c2-a3f1-383f605a7ee4",
+        "techStack": [],
+        "isMember": true,
+        "id": 70
+    },
+    {
+        "platform": "Saramin",
+        "company": "동호에이치알(주)",
+        "title": "[연봉협의] 광고대행사 디지털 광고(팀장/차장급) 채용",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력5년↑"
+        ],
+        "location": "서울 금천구",
+        "deadline": "상시채용",
+        "posted_date": "2026-11-10",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55536773&location=ts&searchword=%EB%94%94%EC%A7%80%ED%84%B8+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=399abb84-41e3-45c2-a3f1-383f605a7ee4",
+        "techStack": [],
+        "isMember": false,
+        "id": 71
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)마스몬스터",
+        "title": "[종합광고대행사] 디지털 마케팅 AE (팀장급) 채용",
+        "matchedCategories": [
+            "기획/전략"
+        ],
+        "experience": [
+            "경력5년↑"
+        ],
+        "location": "서울 서초구",
+        "deadline": "상시채용",
+        "posted_date": "2026-11-11",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55541179&location=ts&searchword=%EB%94%94%EC%A7%80%ED%84%B8+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=399abb84-41e3-45c2-a3f1-383f605a7ee4",
+        "techStack": [],
+        "isMember": false,
+        "id": 72
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)마스몬스터",
+        "title": "[종합광고대행사] 디지털 마케팅 AE 신입/경력 채용",
+        "matchedCategories": [
+            "기획/전략"
+        ],
+        "experience": [
+            "경력무관"
+        ],
+        "location": "서울 서초구",
+        "deadline": "상시채용",
+        "posted_date": "2026-11-16",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55584807&location=ts&searchword=%EB%94%94%EC%A7%80%ED%84%B8+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=399abb84-41e3-45c2-a3f1-383f605a7ee4",
+        "techStack": [],
+        "isMember": false,
+        "id": 73
+    },
+    {
+        "platform": "Saramin",
+        "company": "㈜벤처피플",
+        "title": "[국내 대기업계열 대행사]디지털 마케팅 기획 및 운영(리더급)",
+        "matchedCategories": [
+            "기획/전략"
+        ],
+        "experience": [
+            "경력 14~20년"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2026-12-05",
+        "posted_date": "2026-11-20",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55629179&location=ts&searchword=%EB%94%94%EC%A7%80%ED%84%B8+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=399abb84-41e3-45c2-a3f1-383f605a7ee4",
+        "techStack": [],
+        "isMember": false,
+        "id": 74
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)아보카도자이언트",
+        "title": "[광고대행사] 인플루언서 마케팅/ 디지털 캠페인 AE 경력채용",
+        "matchedCategories": [
+            "기획/전략",
+            "소셜/콘텐츠"
+        ],
+        "experience": [
+            "경력3년↑"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2026-12-01",
+        "posted_date": "2026-10-08",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55238702&location=ts&searchword=%EB%94%94%EC%A7%80%ED%84%B8+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=399abb84-41e3-45c2-a3f1-383f605a7ee4",
+        "techStack": [],
+        "isMember": false,
+        "id": 75
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)시너지에이앤씨",
+        "title": "[광고대행사] 디지털 마케팅 콘텐츠 에디터(신입/경력) 모집",
+        "matchedCategories": [
+            "소셜/콘텐츠"
+        ],
+        "experience": [
+            "경력무관"
+        ],
+        "location": "서울 중구",
+        "deadline": "2026-11-30",
+        "posted_date": "2026-10-20",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55339930&location=ts&searchword=%EB%94%94%EC%A7%80%ED%84%B8+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=399abb84-41e3-45c2-a3f1-383f605a7ee4",
+        "techStack": [],
+        "isMember": false,
+        "id": 76
+    },
+    {
+        "platform": "Saramin",
+        "company": "SMI",
+        "title": "[서울 성동] 광고대행사 디지털 콘텐츠기획 AE",
+        "matchedCategories": [
+            "기획/전략",
+            "소셜/콘텐츠"
+        ],
+        "experience": [
+            "경력 3~7년"
+        ],
+        "location": "서울 성동구",
+        "deadline": "2026-11-23",
+        "posted_date": "2026-11-08",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55514750&location=ts&searchword=%EB%94%94%EC%A7%80%ED%84%B8+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=399abb84-41e3-45c2-a3f1-383f605a7ee4",
+        "techStack": [],
+        "isMember": false,
+        "id": 77
+    },
+    {
+        "platform": "Saramin",
+        "company": "SMI",
+        "title": "[서울 성동] 광고대행사 디지털마케팅 AE",
+        "matchedCategories": [
+            "기획/전략"
+        ],
+        "experience": [
+            "경력 4~7년"
+        ],
+        "location": "서울 성동구",
+        "deadline": "2026-11-23",
+        "posted_date": "2026-11-08",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55514749&location=ts&searchword=%EB%94%94%EC%A7%80%ED%84%B8+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=399abb84-41e3-45c2-a3f1-383f605a7ee4",
+        "techStack": [],
+        "isMember": false,
+        "id": 78
+    },
+    {
+        "platform": "Saramin",
+        "company": "주식회사 비온에이치알",
+        "title": "우량 광고대행사 디지털 컨텐츠 AE",
+        "matchedCategories": [
+            "기획/전략"
+        ],
+        "experience": [
+            "경력 2~8년"
+        ],
+        "location": "서울 성동구",
+        "deadline": "2026-12-01",
+        "posted_date": "2026-11-16",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55587857&location=ts&searchword=%EB%94%94%EC%A7%80%ED%84%B8+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=399abb84-41e3-45c2-a3f1-383f605a7ee4",
+        "techStack": [],
+        "isMember": false,
+        "id": 79
+    },
+    {
+        "platform": "Saramin",
+        "company": "주식회사 비온에이치알",
+        "title": "우량 광고대행사 디지털마케팅 AE",
+        "matchedCategories": [
+            "기획/전략"
+        ],
+        "experience": [
+            "경력 3~8년"
+        ],
+        "location": "서울 성동구",
+        "deadline": "2026-12-01",
+        "posted_date": "2026-11-16",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55587851&location=ts&searchword=%EB%94%94%EC%A7%80%ED%84%B8+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=399abb84-41e3-45c2-a3f1-383f605a7ee4",
+        "techStack": [],
+        "isMember": false,
+        "id": 80
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)클리오",
+        "title": "2026년도 하반기 신입(인턴) 및 경력사원 채용",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "신입·경력"
+        ],
+        "location": "서울 성동구",
+        "deadline": "2026-12-11",
+        "posted_date": "2026-11-12",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55552101&location=ts&searchword=%EB%94%94%EC%A7%80%ED%84%B8+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=399abb84-41e3-45c2-a3f1-383f605a7ee4",
+        "techStack": [],
+        "isMember": false,
+        "id": 81
+    },
+    {
+        "platform": "Saramin",
+        "company": "청오디피케이(주)",
+        "title": "도미노피자 각 부문(자회사 포함) 공개 채용",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "신입·경력"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2026-12-08",
+        "posted_date": "2026-11-18",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55478524&location=ts&searchword=%EB%94%94%EC%A7%80%ED%84%B8+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=399abb84-41e3-45c2-a3f1-383f605a7ee4",
+        "techStack": [],
+        "isMember": false,
+        "id": 82
+    },
+    {
+        "platform": "Saramin",
+        "company": "본아이에프(주)",
+        "title": "[본아이에프(주)] 2026년 하반기 경력직 수시채용(영업관리/마케팅/인테리어)",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력 1~10년"
+        ],
+        "location": "서울 영등포구",
+        "deadline": "2026-11-27",
+        "posted_date": "2026-11-18",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55609192&location=ts&searchword=%EB%94%94%EC%A7%80%ED%84%B8+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=399abb84-41e3-45c2-a3f1-383f605a7ee4",
+        "techStack": [],
+        "isMember": false,
+        "id": 83
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)에싸",
+        "title": "각 부문 채용[영업,MD,마케팅,웹디,구매지원,총무&AMD,CS(계약직)]",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "신입·경력"
+        ],
+        "location": "서울 송파구",
+        "deadline": "2026-11-22",
+        "posted_date": "2026-11-09",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55516941&location=ts&searchword=%EB%94%94%EC%A7%80%ED%84%B8+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=399abb84-41e3-45c2-a3f1-383f605a7ee4",
+        "techStack": [],
+        "isMember": false,
+        "id": 84
+    },
+    {
+        "platform": "Saramin",
+        "company": "매드업",
+        "title": "[미디어렙 본부] 미디어 채널 매니저 채용",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력 2~5년"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2026-11-28",
+        "posted_date": "2026-11-02",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55147675&location=ts&searchword=%EB%AF%B8%EB%94%94%EC%96%B4%EB%A0%99&searchType=search&paid_fl=n&search_uuid=d276ae0e-15fd-45fe-b7d2-aa9556eb654f",
+        "techStack": [],
+        "isMember": true,
+        "id": 85
+    },
+    {
+        "platform": "Saramin",
+        "company": "매드업",
+        "title": "[미디어렙 본부]LEVER Xpert(B2B SaaS) 세일즈 매니저&리드 채용",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력 3~13년"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2026-11-30",
+        "posted_date": "2026-10-27",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55408013&location=ts&searchword=%EB%AF%B8%EB%94%94%EC%96%B4%EB%A0%99&searchType=search&paid_fl=n&search_uuid=d276ae0e-15fd-45fe-b7d2-aa9556eb654f",
+        "techStack": [],
+        "isMember": true,
+        "id": 86
+    },
+    {
+        "platform": "Saramin",
+        "company": "에이치엘엘중앙(주)",
+        "title": "[HLL] [미디어랩] 브랜디드 콘텐트 에디터 경력사원 모집",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력무관"
+        ],
+        "location": "서울 강남구",
+        "deadline": "상시채용",
+        "posted_date": "2026-11-13",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55566223&location=ts&searchword=%EB%AF%B8%EB%94%94%EC%96%B4%EB%A0%99&searchType=search&paid_fl=n&search_uuid=d276ae0e-15fd-45fe-b7d2-aa9556eb654f",
+        "techStack": [],
+        "isMember": false,
+        "id": 87
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)아이랩미디어",
+        "title": "(주)아이랩미디어 경영전략(재무회계) 과차장급 채용",
+        "matchedCategories": [
+            "기획/전략"
+        ],
+        "experience": [
+            "경력 10~20년"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2026-12-19",
+        "posted_date": "2026-11-20",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55345575&location=ts&searchword=%EB%AF%B8%EB%94%94%EC%96%B4%EB%A0%99&searchType=search&paid_fl=n&search_uuid=d276ae0e-15fd-45fe-b7d2-aa9556eb654f",
+        "techStack": [],
+        "isMember": false,
+        "id": 88
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)휴먼웰니스",
+        "title": "미디어랩 팀장 채용",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력3년↑"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2026-12-12",
+        "posted_date": "2026-11-13",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55564729&location=ts&searchword=%EB%AF%B8%EB%94%94%EC%96%B4%EB%A0%99&searchType=search&paid_fl=n&search_uuid=d276ae0e-15fd-45fe-b7d2-aa9556eb654f",
+        "techStack": [],
+        "isMember": false,
+        "id": 89
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)하이브랩",
+        "title": "[하이브랩] 퍼포먼스 광고운영 및 미디어랩 담당자 채용",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력 3~8년"
+        ],
+        "location": "경기 성남시 분당구",
+        "deadline": "2026-12-02",
+        "posted_date": "2026-11-02",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55453437&location=ts&searchword=%EB%AF%B8%EB%94%94%EC%96%B4%EB%A0%99&searchType=search&paid_fl=n&search_uuid=d276ae0e-15fd-45fe-b7d2-aa9556eb654f",
+        "techStack": [],
+        "isMember": false,
+        "id": 90
+    },
+    {
+        "platform": "Saramin",
+        "company": "엔터웨이파트너스",
+        "title": "대기업 계열 미디어랩사-자금담당(3~8년)",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력 3~8년"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2026-11-26",
+        "posted_date": "2026-11-11",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55547545&location=ts&searchword=%EB%AF%B8%EB%94%94%EC%96%B4%EB%A0%99&searchType=search&paid_fl=n&search_uuid=d276ae0e-15fd-45fe-b7d2-aa9556eb654f",
+        "techStack": [],
+        "isMember": false,
+        "id": 91
+    },
+    {
+        "platform": "Saramin",
+        "company": "엔터웨이파트너스",
+        "title": "대기업 계열 미디어랩사-데이터랩 파트(2~4년)",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력 2~4년"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2026-11-26",
+        "posted_date": "2026-11-11",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55547497&location=ts&searchword=%EB%AF%B8%EB%94%94%EC%96%B4%EB%A0%99&searchType=search&paid_fl=n&search_uuid=d276ae0e-15fd-45fe-b7d2-aa9556eb654f",
+        "techStack": [],
+        "isMember": false,
+        "id": 92
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)메타써치",
+        "title": "[메디컬/향수/패션] 미디어랩 팀장 (과. 차장급)",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력6년↑"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2026-12-18",
+        "posted_date": "2026-11-18",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55608757&location=ts&searchword=%EB%AF%B8%EB%94%94%EC%96%B4%EB%A0%99&searchType=search&paid_fl=n&search_uuid=d276ae0e-15fd-45fe-b7d2-aa9556eb654f",
+        "techStack": [],
+        "isMember": true,
+        "id": 93
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)모비데이즈",
+        "title": "[모비데이즈] 2026 하반기 인턴십 공개채용",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "신입"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2026-12-06",
+        "posted_date": "2026-11-12",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55559633&location=ts&searchword=%EB%AF%B8%EB%94%94%EC%96%B4%EB%A0%99&searchType=search&paid_fl=n&search_uuid=d276ae0e-15fd-45fe-b7d2-aa9556eb654f",
+        "techStack": [],
+        "isMember": true,
+        "id": 94
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)신지모루",
+        "title": "26년 11월 각 부문별 신입/경력사원 채용",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "신입·경력"
+        ],
+        "location": "서울 마포구",
+        "deadline": "2026-12-16",
+        "posted_date": "2026-11-19",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55566919&location=ts&searchword=%EB%AF%B8%EB%94%94%EC%96%B4%EB%A0%99&searchType=search&paid_fl=n&search_uuid=d276ae0e-15fd-45fe-b7d2-aa9556eb654f",
+        "techStack": [],
+        "isMember": false,
+        "id": 95
+    },
+    {
+        "platform": "Saramin",
+        "company": "유토랩",
+        "title": "무대 영상 및 미디어 콘텐츠를 함께 만들 인재를 모십니다.",
+        "matchedCategories": [
+            "소셜/콘텐츠"
+        ],
+        "experience": [
+            "경력무관"
+        ],
+        "location": "서울 마포구",
+        "deadline": "2026-12-16",
+        "posted_date": "2026-11-16",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55586448&location=ts&searchword=%EB%AF%B8%EB%94%94%EC%96%B4%EB%A0%99&searchType=search&paid_fl=n&search_uuid=d276ae0e-15fd-45fe-b7d2-aa9556eb654f",
+        "techStack": [],
+        "isMember": false,
+        "id": 96
+    },
+    {
+        "platform": "Saramin",
+        "company": "쿠팡(주)",
+        "title": "[쿠팡] 광고영업 담당자 (대형 광고주)",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력 4~10년"
+        ],
+        "location": "서울 광진구",
+        "deadline": "상시채용",
+        "posted_date": "2026-11-06",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55508214&location=ts&searchword=%EB%AF%B8%EB%94%94%EC%96%B4%EB%A0%99&searchType=search&paid_fl=n&search_uuid=d276ae0e-15fd-45fe-b7d2-aa9556eb654f",
+        "techStack": [],
+        "isMember": false,
+        "id": 97
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)현대퓨처넷",
+        "title": "2027년 상반기 경력사원 채용(사이니지 광고기획)",
+        "matchedCategories": [
+            "기획/전략"
+        ],
+        "experience": [
+            "경력5년↑"
+        ],
+        "location": "서울전체",
+        "deadline": "2026-12-02",
+        "posted_date": "2026-11-19",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55620099&location=ts&searchword=%EB%AF%B8%EB%94%94%EC%96%B4%EB%A0%99&searchType=search&paid_fl=n&search_uuid=d276ae0e-15fd-45fe-b7d2-aa9556eb654f",
+        "techStack": [],
+        "isMember": false,
+        "id": 98
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)인크로스",
+        "title": "[SK그룹-인크로스] 자금 담당 경력직 채용",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력 3~8년"
+        ],
+        "location": "서울 관악구",
+        "deadline": "2026-12-10",
+        "posted_date": "2026-11-10",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55523302&location=ts&searchword=%EB%AF%B8%EB%94%94%EC%96%B4%EB%A0%99&searchType=search&paid_fl=n&search_uuid=d276ae0e-15fd-45fe-b7d2-aa9556eb654f",
+        "techStack": [],
+        "isMember": true,
+        "id": 99
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)셀디랩",
+        "title": "[셀디랩] 리빙 이커머스 인플루언서 마케터 주니어 모집",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "신입·경력"
+        ],
+        "location": "서울 강서구",
+        "deadline": "2026-12-02",
+        "posted_date": "2026-11-18",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55606931&location=ts&searchword=%EB%AF%B8%EB%94%94%EC%96%B4%EB%A0%99&searchType=search&paid_fl=n&search_uuid=d276ae0e-15fd-45fe-b7d2-aa9556eb654f",
+        "techStack": [],
+        "isMember": false,
+        "id": 100
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)셀디랩",
+        "title": "[셀디랩] 리빙 이커머스 AX 담당자 채용",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력무관"
+        ],
+        "location": "서울 강서구",
+        "deadline": "2026-12-02",
+        "posted_date": "2026-11-18",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55607075&location=ts&searchword=%EB%AF%B8%EB%94%94%EC%96%B4%EB%A0%99&searchType=search&paid_fl=n&search_uuid=d276ae0e-15fd-45fe-b7d2-aa9556eb654f",
+        "techStack": [],
+        "isMember": false,
+        "id": 101
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)셀디랩",
+        "title": "[이커머스/쇼핑몰] 회계 담당 주니어 채용",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력1년↑"
+        ],
+        "location": "서울 강서구",
+        "deadline": "2026-12-02",
+        "posted_date": "2026-11-18",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55607010&location=ts&searchword=%EB%AF%B8%EB%94%94%EC%96%B4%EB%A0%99&searchType=search&paid_fl=n&search_uuid=d276ae0e-15fd-45fe-b7d2-aa9556eb654f",
+        "techStack": [],
+        "isMember": false,
+        "id": 102
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)디앤씨미디어",
+        "title": "[디앤씨미디어] 웹툰스튜디오 선화파트 채용",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력무관"
+        ],
+        "location": "서울 구로구",
+        "deadline": "2026-12-12",
+        "posted_date": "2026-11-12",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55554156&location=ts&searchword=%EB%AF%B8%EB%94%94%EC%96%B4%EB%A0%99&searchType=search&paid_fl=n&search_uuid=d276ae0e-15fd-45fe-b7d2-aa9556eb654f",
+        "techStack": [],
+        "isMember": false,
+        "id": 103
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)니즈랩글로벌앤컬쳐",
+        "title": "[신입·경력 무관] 음원 콘텐츠 마케팅 기획자를 찾습니다",
+        "matchedCategories": [
+            "기획/전략",
+            "소셜/콘텐츠"
+        ],
+        "experience": [
+            "경력무관"
+        ],
+        "location": "서울 서초구",
+        "deadline": "2026-12-05",
+        "posted_date": "2026-11-05",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55492300&location=ts&searchword=%EB%AF%B8%EB%94%94%EC%96%B4%EB%A0%99&searchType=search&paid_fl=n&search_uuid=d276ae0e-15fd-45fe-b7d2-aa9556eb654f",
+        "techStack": [],
+        "isMember": false,
+        "id": 104
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)휴먼웰니스",
+        "title": "전략기획팀 팀장 채용",
+        "matchedCategories": [
+            "기획/전략"
+        ],
+        "experience": [
+            "경력8년↑"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2026-11-25",
+        "posted_date": "2026-10-27",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55402334&location=ts&searchword=%EB%AF%B8%EB%94%94%EC%96%B4%EB%A0%99&searchType=search&paid_fl=n&search_uuid=d276ae0e-15fd-45fe-b7d2-aa9556eb654f",
+        "techStack": [],
+        "isMember": false,
+        "id": 105
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)와이더블유에프엔비",
+        "title": "[화장품 / 생활용품] 마케팅 총괄 채용 (팀장급)",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력7년↑"
+        ],
+        "location": "서울 광진구",
+        "deadline": "2026-12-19",
+        "posted_date": "2026-11-20",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55344318&location=ts&searchword=%EB%AF%B8%EB%94%94%EC%96%B4%EB%A0%99&searchType=search&paid_fl=n&search_uuid=d276ae0e-15fd-45fe-b7d2-aa9556eb654f",
+        "techStack": [],
+        "isMember": false,
+        "id": 106
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)에이든랩",
+        "title": "재무회계  (브랜드, 글로벌, 커머스) 경력",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력 3~15년"
+        ],
+        "location": "서울 마포구",
+        "deadline": "2027-01-09",
+        "posted_date": "2026-11-10",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55531980&location=ts&searchword=%EB%AF%B8%EB%94%94%EC%96%B4%EB%A0%99&searchType=search&paid_fl=n&search_uuid=d276ae0e-15fd-45fe-b7d2-aa9556eb654f",
+        "techStack": [],
+        "isMember": false,
+        "id": 107
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)프로그미디어랩",
+        "title": "감각있는 이러닝 콘텐츠 영상디자이너 및 영상에디터를 찾습니다",
+        "matchedCategories": [
+            "크리에이티브",
+            "소셜/콘텐츠"
+        ],
+        "experience": [
+            "경력3년↑"
+        ],
+        "location": "서울 구로구",
+        "deadline": "2026-11-22",
+        "posted_date": "2026-11-09",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55523658&location=ts&searchword=%EB%AF%B8%EB%94%94%EC%96%B4%EB%A0%99&searchType=search&paid_fl=n&search_uuid=d276ae0e-15fd-45fe-b7d2-aa9556eb654f",
+        "techStack": [],
+        "isMember": false,
+        "id": 108
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)미디어랩코리아",
+        "title": "5시칼퇴/ 마곡역/ 친구동반가능/ 월250~/ MZ분위기/ TM마케터",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력무관"
+        ],
+        "location": "서울 강서구",
+        "deadline": "상시채용",
+        "posted_date": "2026-10-26",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55394103&location=ts&searchword=%EB%AF%B8%EB%94%94%EC%96%B4%EB%A0%99&searchType=search&paid_fl=n&search_uuid=d276ae0e-15fd-45fe-b7d2-aa9556eb654f",
+        "techStack": [],
+        "isMember": false,
+        "id": 109
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)솔미디어랩",
+        "title": "[서울 송파] 영상장비 시스템팀 신입경력 정규직채용",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력무관"
+        ],
+        "location": "서울 송파구",
+        "deadline": "2026-12-17",
+        "posted_date": "2026-11-17",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55598086&location=ts&searchword=%EB%AF%B8%EB%94%94%EC%96%B4%EB%A0%99&searchType=search&paid_fl=n&search_uuid=d276ae0e-15fd-45fe-b7d2-aa9556eb654f",
+        "techStack": [],
+        "isMember": false,
+        "id": 110
+    },
+    {
+        "platform": "Saramin",
+        "company": "매드업",
+        "title": "[AI Managed Service팀] 퍼포먼스 영상 디자이너 채용",
+        "matchedCategories": [
+            "크리에이티브"
+        ],
+        "experience": [
+            "경력 3~6년"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2027-01-03",
+        "posted_date": "2026-11-19",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55620224&location=ts&searchword=%EB%AF%B8%EB%94%94%EC%96%B4%EB%A0%99&searchType=search&paid_fl=n&search_uuid=d276ae0e-15fd-45fe-b7d2-aa9556eb654f",
+        "techStack": [],
+        "isMember": true,
+        "id": 111
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)씨제이메조미디어",
+        "title": "[CJ 그룹-CJ 메조미디어] 디지털광고 미디어플래너",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력 3~7년"
+        ],
+        "location": "서울 중구",
+        "deadline": "2026-12-06",
+        "posted_date": "2026-11-06",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55507613&location=ts&searchword=%EB%AF%B8%EB%94%94%EC%96%B4%EB%A0%99&searchType=search&paid_fl=n&search_uuid=d276ae0e-15fd-45fe-b7d2-aa9556eb654f",
+        "techStack": [],
+        "isMember": true,
+        "id": 112
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)씨제이메조미디어",
+        "title": "[CJ 그룹-CJ 메조미디어] 퍼포먼스마케팅 AE",
+        "matchedCategories": [
+            "기획/전략"
+        ],
+        "experience": [
+            "경력 3~10년"
+        ],
+        "location": "서울 중구",
+        "deadline": "2026-12-17",
+        "posted_date": "2026-11-17",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55598184&location=ts&searchword=%EB%AF%B8%EB%94%94%EC%96%B4%EB%A0%99&searchType=search&paid_fl=n&search_uuid=d276ae0e-15fd-45fe-b7d2-aa9556eb654f",
+        "techStack": [],
+        "isMember": true,
+        "id": 113
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)이든앤앨리스마케팅",
+        "title": "각 부문 경력사원 채용",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2026-11-30",
+        "posted_date": "2026-11-05",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55493956&location=ts&searchword=%EB%AF%B8%EB%94%94%EC%96%B4%EB%A0%99&searchType=search&paid_fl=n&search_uuid=d276ae0e-15fd-45fe-b7d2-aa9556eb654f",
+        "techStack": [],
+        "isMember": false,
+        "id": 114
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)트레져헌터",
+        "title": "광고 사업부 AE(광고 기획자) 채용공고",
+        "matchedCategories": [
+            "기획/전략"
+        ],
+        "experience": [
+            "경력무관"
+        ],
+        "location": "서울 성동구",
+        "deadline": "2026-12-11",
+        "posted_date": "2026-10-12",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55255763&location=ts&searchword=%EB%AF%B8%EB%94%94%EC%96%B4%EB%A0%99&searchType=search&paid_fl=n&search_uuid=d276ae0e-15fd-45fe-b7d2-aa9556eb654f",
+        "techStack": [],
+        "isMember": true,
+        "id": 115
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)모비데이즈",
+        "title": "[모비데이즈] 재무팀장 채용",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력 7~15년"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2026-11-29",
+        "posted_date": "2026-10-27",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55406106&location=ts&searchword=%EB%AF%B8%EB%94%94%EC%96%B4%EB%A0%99&searchType=search&paid_fl=n&search_uuid=d276ae0e-15fd-45fe-b7d2-aa9556eb654f",
+        "techStack": [],
+        "isMember": true,
+        "id": 116
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)모비위드",
+        "title": "[주4.5일근무] 매체 제휴 담당자 채용",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력"
+        ],
+        "location": "서울 구로구",
+        "deadline": "2026-12-17",
+        "posted_date": "2026-11-17",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55593297&location=ts&searchword=%EB%AF%B8%EB%94%94%EC%96%B4%EB%A0%99&searchType=search&paid_fl=n&search_uuid=d276ae0e-15fd-45fe-b7d2-aa9556eb654f",
+        "techStack": [],
+        "isMember": false,
+        "id": 117
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)넥스트미디어그룹",
+        "title": "(주)넥스트미디어그룹 회계 담당자 채용 공고(경력 3년-6년)",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력 3~6년"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2026-11-23",
+        "posted_date": "2026-10-24",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55383703&location=ts&searchword=%EB%AF%B8%EB%94%94%EC%96%B4%EB%A0%99&searchType=search&paid_fl=n&search_uuid=d276ae0e-15fd-45fe-b7d2-aa9556eb654f",
+        "techStack": [],
+        "isMember": true,
+        "id": 118
+    },
+    {
+        "platform": "Saramin",
+        "company": "주식회사 아이티피",
+        "title": "[대전 둔산] 인플루언서 섭외 · 운영 경력 2년 이상",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력2년↑"
+        ],
+        "location": "대전 서구",
+        "deadline": "2026-12-16",
+        "posted_date": "2026-11-16",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55579995&location=ts&searchword=%EB%AF%B8%EB%94%94%EC%96%B4%EB%A0%99&searchType=search&paid_fl=n&search_uuid=d276ae0e-15fd-45fe-b7d2-aa9556eb654f",
+        "techStack": [],
+        "isMember": false,
+        "id": 119
+    },
+    {
+        "platform": "Saramin",
+        "company": "브릿지트래이딩컴퍼니(BridgeTradingCompany)",
+        "title": "회계 담당자 채용 공고 IPO 준비",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력 3~8년"
+        ],
+        "location": "서울 강남구",
+        "deadline": "상시채용",
+        "posted_date": "2026-10-19",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55328011&location=ts&searchword=%EB%AF%B8%EB%94%94%EC%96%B4%EB%A0%99&searchType=search&paid_fl=n&search_uuid=d276ae0e-15fd-45fe-b7d2-aa9556eb654f",
+        "techStack": [],
+        "isMember": false,
+        "id": 120
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)제이씨지",
+        "title": "[10시 출근/여의도] 광고대행사 광고 운영지원 담당자 채용",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력무관"
+        ],
+        "location": "서울 영등포구",
+        "deadline": "2026-12-20",
+        "posted_date": "2026-11-20",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55625545&location=ts&searchword=%EB%AF%B8%EB%94%94%EC%96%B4%EB%A0%99&searchType=search&paid_fl=n&search_uuid=d276ae0e-15fd-45fe-b7d2-aa9556eb654f",
+        "techStack": [],
+        "isMember": false,
+        "id": 121
+    },
+    {
+        "platform": "Saramin",
+        "company": "㈜아이엠아이",
+        "title": "게임전략 맞춤 기획자를 찾습니다.(서울/전주)",
+        "matchedCategories": [
+            "기획/전략"
+        ],
+        "experience": [
+            "신입·경력"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2026-11-25",
+        "posted_date": "2026-11-11",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55356726&location=ts&searchword=%EB%AF%B8%EB%94%94%EC%96%B4%EB%A0%99&searchType=search&paid_fl=n&search_uuid=d276ae0e-15fd-45fe-b7d2-aa9556eb654f",
+        "techStack": [],
+        "isMember": false,
+        "id": 122
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)동아사이언스",
+        "title": "[과학동아] 경력직 기자 채용 (경력 5년 이상/정규직)",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력5년↑"
+        ],
+        "location": "서울 서대문구",
+        "deadline": "2026-12-06",
+        "posted_date": "2026-11-17",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55587250&location=ts&searchword=%EB%AF%B8%EB%94%94%EC%96%B4%EB%A0%99&searchType=search&paid_fl=n&search_uuid=d276ae0e-15fd-45fe-b7d2-aa9556eb654f",
+        "techStack": [],
+        "isMember": false,
+        "id": 123
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)아모레퍼시픽",
+        "title": "26년 AMOREPACIFIC 경력채용_e커머스 퍼포먼스 마케팅 담당",
+        "matchedCategories": [
+            "퍼포먼스"
+        ],
+        "experience": [
+            "경력3년↑"
+        ],
+        "location": "서울전체",
+        "deadline": "2026-12-02",
+        "posted_date": "2026-11-19",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55618390&location=ts&searchword=%ED%8D%BC%ED%8F%AC%EB%A8%BC%EC%8A%A4+%EB%A7%88%EC%BC%80%ED%8C%85&searchType=search&paid_fl=n&search_uuid=31444090-d130-4ce0-bdec-4ae69802c0b7",
+        "techStack": [],
+        "isMember": false,
+        "id": 124
+    },
+    {
+        "platform": "Saramin",
+        "company": "쿠팡(주)",
+        "title": "[쿠팡] 로켓그로스 주니어 퍼포먼스 마케팅 담당 (6개월 계약직)",
+        "matchedCategories": [
+            "퍼포먼스"
+        ],
+        "experience": [
+            "경력 2~5년"
+        ],
+        "location": "서울 광진구",
+        "deadline": "상시채용",
+        "posted_date": "2026-11-05",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55490765&location=ts&searchword=%ED%8D%BC%ED%8F%AC%EB%A8%BC%EC%8A%A4+%EB%A7%88%EC%BC%80%ED%8C%85&searchType=search&paid_fl=n&search_uuid=31444090-d130-4ce0-bdec-4ae69802c0b7",
+        "techStack": [],
+        "isMember": false,
+        "id": 125
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)토니모리",
+        "title": "[토니모리] 퍼포먼스 마케팅 담당자 채용",
+        "matchedCategories": [
+            "퍼포먼스"
+        ],
+        "experience": [
+            "경력2년↑"
+        ],
+        "location": "서울 서초구",
+        "deadline": "2026-11-30",
+        "posted_date": "2026-10-27",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55403761&location=ts&searchword=%ED%8D%BC%ED%8F%AC%EB%A8%BC%EC%8A%A4+%EB%A7%88%EC%BC%80%ED%8C%85&searchType=search&paid_fl=n&search_uuid=31444090-d130-4ce0-bdec-4ae69802c0b7",
+        "techStack": [],
+        "isMember": false,
+        "id": 126
+    },
+    {
+        "platform": "Saramin",
+        "company": "네이버웹툰(유)",
+        "title": "[네이버웹툰] 퍼포먼스 마케팅 크리에이티브 (체험형 인턴)",
+        "matchedCategories": [
+            "퍼포먼스"
+        ],
+        "experience": [
+            "신입"
+        ],
+        "location": "경기 성남시 분당구",
+        "deadline": "2026-11-25",
+        "posted_date": "2026-11-19",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55616689&location=ts&searchword=%ED%8D%BC%ED%8F%AC%EB%A8%BC%EC%8A%A4+%EB%A7%88%EC%BC%80%ED%8C%85&searchType=search&paid_fl=n&search_uuid=31444090-d130-4ce0-bdec-4ae69802c0b7",
+        "techStack": [],
+        "isMember": true,
+        "id": 127
+    },
+    {
+        "platform": "Saramin",
+        "company": "주식회사한결기획",
+        "title": "기본 230만+인센티브 퍼포먼스 마케팅 AE 영업 정규직 모집 공고",
+        "matchedCategories": [
+            "기획/전략",
+            "퍼포먼스"
+        ],
+        "experience": [
+            "경력무관"
+        ],
+        "location": "서울 강서구",
+        "deadline": "상시채용",
+        "posted_date": "2026-11-19",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55620913&location=ts&searchword=%ED%8D%BC%ED%8F%AC%EB%A8%BC%EC%8A%A4+%EB%A7%88%EC%BC%80%ED%8C%85&searchType=search&paid_fl=n&search_uuid=31444090-d130-4ce0-bdec-4ae69802c0b7",
+        "techStack": [],
+        "isMember": false,
+        "id": 128
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)그레이스",
+        "title": "[퍼포먼스 마케팅팀] 퍼포먼스 마케팅 기획 및 운영",
+        "matchedCategories": [
+            "기획/전략",
+            "퍼포먼스"
+        ],
+        "experience": [
+            "경력2년↑"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2026-11-29",
+        "posted_date": "2026-10-31",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55439255&location=ts&searchword=%ED%8D%BC%ED%8F%AC%EB%A8%BC%EC%8A%A4+%EB%A7%88%EC%BC%80%ED%8C%85&searchType=search&paid_fl=n&search_uuid=31444090-d130-4ce0-bdec-4ae69802c0b7",
+        "techStack": [],
+        "isMember": false,
+        "id": 129
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)트리플하이엠",
+        "title": "[성수오피스/신입] 퍼포먼스 마케팅 AE 신입 모집",
+        "matchedCategories": [
+            "기획/전략",
+            "퍼포먼스"
+        ],
+        "experience": [
+            "신입"
+        ],
+        "location": "서울 금천구",
+        "deadline": "2026-12-09",
+        "posted_date": "2026-11-09",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55520299&location=ts&searchword=%ED%8D%BC%ED%8F%AC%EB%A8%BC%EC%8A%A4+%EB%A7%88%EC%BC%80%ED%8C%85&searchType=search&paid_fl=n&search_uuid=31444090-d130-4ce0-bdec-4ae69802c0b7",
+        "techStack": [],
+        "isMember": true,
+        "id": 130
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)에스엘바이오텍",
+        "title": "[뉴트리코어] 브랜드마케팅·퍼포먼스마케팅·온라인MD",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력2년↑"
+        ],
+        "location": "서울 금천구",
+        "deadline": "2027-01-09",
+        "posted_date": "2026-11-20",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55532464&location=ts&searchword=%ED%8D%BC%ED%8F%AC%EB%A8%BC%EC%8A%A4+%EB%A7%88%EC%BC%80%ED%8C%85&searchType=search&paid_fl=n&search_uuid=31444090-d130-4ce0-bdec-4ae69802c0b7",
+        "techStack": [],
+        "isMember": false,
+        "id": 131
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)마르시끄",
+        "title": "[뷰티브랜드/마르시끄] 퍼포먼스마케터 (퍼포먼스마케팅)",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력무관"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2026-12-16",
+        "posted_date": "2026-11-16",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55582755&location=ts&searchword=%ED%8D%BC%ED%8F%AC%EB%A8%BC%EC%8A%A4+%EB%A7%88%EC%BC%80%ED%8C%85&searchType=search&paid_fl=n&search_uuid=31444090-d130-4ce0-bdec-4ae69802c0b7",
+        "techStack": [],
+        "isMember": false,
+        "id": 132
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)윤서컴퍼니",
+        "title": "(주)윤서컴퍼니 퍼포먼스 마케팅 온라인마케터 채용",
+        "matchedCategories": [
+            "퍼포먼스"
+        ],
+        "experience": [
+            "경력무관"
+        ],
+        "location": "서울 송파구",
+        "deadline": "2026-11-29",
+        "posted_date": "2026-10-30",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55442174&location=ts&searchword=%ED%8D%BC%ED%8F%AC%EB%A8%BC%EC%8A%A4+%EB%A7%88%EC%BC%80%ED%8C%85&searchType=search&paid_fl=n&search_uuid=31444090-d130-4ce0-bdec-4ae69802c0b7",
+        "techStack": [],
+        "isMember": false,
+        "id": 133
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)그레이고",
+        "title": "패션 브랜딩, 콘텐츠, 퍼포먼스 마케팅",
+        "matchedCategories": [
+            "퍼포먼스",
+            "소셜/콘텐츠"
+        ],
+        "experience": [
+            "경력3년↑"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2026-11-23",
+        "posted_date": "2026-10-25",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55376095&location=ts&searchword=%ED%8D%BC%ED%8F%AC%EB%A8%BC%EC%8A%A4+%EB%A7%88%EC%BC%80%ED%8C%85&searchType=search&paid_fl=n&search_uuid=31444090-d130-4ce0-bdec-4ae69802c0b7",
+        "techStack": [],
+        "isMember": false,
+        "id": 134
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)올티칭",
+        "title": "마케팅 기획. 브랜드. 바이럴. 퍼포먼스마케팅 담당 채용",
+        "matchedCategories": [
+            "기획/전략",
+            "소셜/콘텐츠"
+        ],
+        "experience": [
+            "경력무관"
+        ],
+        "location": "서울 금천구",
+        "deadline": "상시채용",
+        "posted_date": "2026-11-11",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55545446&location=ts&searchword=%ED%8D%BC%ED%8F%AC%EB%A8%BC%EC%8A%A4+%EB%A7%88%EC%BC%80%ED%8C%85&searchType=search&paid_fl=n&search_uuid=31444090-d130-4ce0-bdec-4ae69802c0b7",
+        "techStack": [],
+        "isMember": false,
+        "id": 135
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)쇼엠",
+        "title": "[대구] 퍼포먼스 마케팅 정규직(토-수 근무)",
+        "matchedCategories": [
+            "퍼포먼스"
+        ],
+        "experience": [
+            "경력무관"
+        ],
+        "location": "대구 중구",
+        "deadline": "2026-11-22",
+        "posted_date": "2026-10-23",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55374563&location=ts&searchword=%ED%8D%BC%ED%8F%AC%EB%A8%BC%EC%8A%A4+%EB%A7%88%EC%BC%80%ED%8C%85&searchType=search&paid_fl=n&search_uuid=31444090-d130-4ce0-bdec-4ae69802c0b7",
+        "techStack": [],
+        "isMember": false,
+        "id": 136
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)쇼엠",
+        "title": "[서울 가산] 퍼포먼스 마케팅 담당자(신입/경력)",
+        "matchedCategories": [
+            "퍼포먼스"
+        ],
+        "experience": [
+            "경력무관"
+        ],
+        "location": "서울 금천구",
+        "deadline": "2026-12-08",
+        "posted_date": "2026-11-05",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55495539&location=ts&searchword=%ED%8D%BC%ED%8F%AC%EB%A8%BC%EC%8A%A4+%EB%A7%88%EC%BC%80%ED%8C%85&searchType=search&paid_fl=n&search_uuid=31444090-d130-4ce0-bdec-4ae69802c0b7",
+        "techStack": [],
+        "isMember": false,
+        "id": 137
+    },
+    {
+        "platform": "Saramin",
+        "company": "애드커넥스(주)",
+        "title": "[현대해상 계열] 애드커넥스 퍼포먼스마케팅 경력직 (사원~대리)",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력 1~7년"
+        ],
+        "location": "서울 영등포구",
+        "deadline": "2026-12-20",
+        "posted_date": "2026-11-20",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55625851&location=ts&searchword=%ED%8D%BC%ED%8F%AC%EB%A8%BC%EC%8A%A4+%EB%A7%88%EC%BC%80%ED%8C%85&searchType=search&paid_fl=n&search_uuid=31444090-d130-4ce0-bdec-4ae69802c0b7",
+        "techStack": [],
+        "isMember": true,
+        "id": 138
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)일리애드",
+        "title": "광고대행사 AE 퍼포먼스 마케팅 SNS광고 컨텐츠기획&제작자 구인",
+        "matchedCategories": [
+            "기획/전략",
+            "퍼포먼스",
+            "소셜/콘텐츠"
+        ],
+        "experience": [
+            "경력무관"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2026-12-09",
+        "posted_date": "2026-11-16",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55525558&location=ts&searchword=%ED%8D%BC%ED%8F%AC%EB%A8%BC%EC%8A%A4+%EB%A7%88%EC%BC%80%ED%8C%85&searchType=search&paid_fl=n&search_uuid=31444090-d130-4ce0-bdec-4ae69802c0b7",
+        "techStack": [],
+        "isMember": false,
+        "id": 139
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)더파운더즈",
+        "title": "[ANUA] 한국 퍼포먼스마케팅 매니저",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력 2~7년"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2026-12-12",
+        "posted_date": "2026-11-13",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55555384&location=ts&searchword=%ED%8D%BC%ED%8F%AC%EB%A8%BC%EC%8A%A4+%EB%A7%88%EC%BC%80%ED%8C%85&searchType=search&paid_fl=n&search_uuid=31444090-d130-4ce0-bdec-4ae69802c0b7",
+        "techStack": [],
+        "isMember": false,
+        "id": 140
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)편강한방피부과학연구소",
+        "title": "[판교] 뷰티브랜드 퍼포먼스 마케팅 담당자 채용(신입)",
+        "matchedCategories": [
+            "퍼포먼스"
+        ],
+        "experience": [
+            "경력무관"
+        ],
+        "location": "경기 성남시 분당구",
+        "deadline": "2027-01-05",
+        "posted_date": "2026-11-06",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55503795&location=ts&searchword=%ED%8D%BC%ED%8F%AC%EB%A8%BC%EC%8A%A4+%EB%A7%88%EC%BC%80%ED%8C%85&searchType=search&paid_fl=n&search_uuid=31444090-d130-4ce0-bdec-4ae69802c0b7",
+        "techStack": [],
+        "isMember": false,
+        "id": 141
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)마케팅키드",
+        "title": "퍼포먼스 마케팅 AE 신입 [공개채용]",
+        "matchedCategories": [
+            "기획/전략",
+            "퍼포먼스"
+        ],
+        "experience": [
+            "신입"
+        ],
+        "location": "서울 금천구",
+        "deadline": "2026-12-19",
+        "posted_date": "2026-11-19",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55621746&location=ts&searchword=%ED%8D%BC%ED%8F%AC%EB%A8%BC%EC%8A%A4+%EB%A7%88%EC%BC%80%ED%8C%85&searchType=search&paid_fl=n&search_uuid=31444090-d130-4ce0-bdec-4ae69802c0b7",
+        "techStack": [],
+        "isMember": false,
+        "id": 142
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)구다이글로벌",
+        "title": "[피스마이너스원뷰티] 퍼포먼스 마케팅",
+        "matchedCategories": [
+            "퍼포먼스"
+        ],
+        "experience": [
+            "경력 3~8년"
+        ],
+        "location": "서울 강남구",
+        "deadline": "상시채용",
+        "posted_date": "2026-11-13",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55473332&location=ts&searchword=%ED%8D%BC%ED%8F%AC%EB%A8%BC%EC%8A%A4+%EB%A7%88%EC%BC%80%ED%8C%85&searchType=search&paid_fl=n&search_uuid=31444090-d130-4ce0-bdec-4ae69802c0b7",
+        "techStack": [],
+        "isMember": false,
+        "id": 143
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)애드제노",
+        "title": "부산 온라인 퍼포먼스마케팅 대행사 - AE 모집",
+        "matchedCategories": [
+            "기획/전략"
+        ],
+        "experience": [
+            "신입·경력"
+        ],
+        "location": "부산 부산진구",
+        "deadline": "상시채용",
+        "posted_date": "2026-11-20",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55632375&location=ts&searchword=%ED%8D%BC%ED%8F%AC%EB%A8%BC%EC%8A%A4+%EB%A7%88%EC%BC%80%ED%8C%85&searchType=search&paid_fl=n&search_uuid=31444090-d130-4ce0-bdec-4ae69802c0b7",
+        "techStack": [],
+        "isMember": false,
+        "id": 144
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)아몬드",
+        "title": "[(주)아몬드 본사] 인플루언서 커머스 · 퍼포먼스 마케팅 담당",
+        "matchedCategories": [
+            "퍼포먼스"
+        ],
+        "experience": [
+            "경력3년↑"
+        ],
+        "location": "서울 영등포구",
+        "deadline": "2027-01-12",
+        "posted_date": "2026-11-13",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55566765&location=ts&searchword=%ED%8D%BC%ED%8F%AC%EB%A8%BC%EC%8A%A4+%EB%A7%88%EC%BC%80%ED%8C%85&searchType=search&paid_fl=n&search_uuid=31444090-d130-4ce0-bdec-4ae69802c0b7",
+        "techStack": [],
+        "isMember": false,
+        "id": 145
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)위프코리아",
+        "title": "[석촌역] 위프코리아 퍼포먼스 마케팅 디자이너-4년 이상",
+        "matchedCategories": [
+            "크리에이티브",
+            "퍼포먼스"
+        ],
+        "experience": [
+            "경력4년↑"
+        ],
+        "location": "서울 송파구",
+        "deadline": "2026-11-26",
+        "posted_date": "2026-11-13",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55573305&location=ts&searchword=%ED%8D%BC%ED%8F%AC%EB%A8%BC%EC%8A%A4+%EB%A7%88%EC%BC%80%ED%8C%85&searchType=search&paid_fl=n&search_uuid=31444090-d130-4ce0-bdec-4ae69802c0b7",
+        "techStack": [],
+        "isMember": false,
+        "id": 146
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)이안에프엔씨",
+        "title": "[투에이엔] 퍼포먼스 마케팅 경력 채용",
+        "matchedCategories": [
+            "퍼포먼스"
+        ],
+        "experience": [
+            "경력"
+        ],
+        "location": "서울 성동구",
+        "deadline": "상시채용",
+        "posted_date": "2026-11-17",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55596484&location=ts&searchword=%ED%8D%BC%ED%8F%AC%EB%A8%BC%EC%8A%A4+%EB%A7%88%EC%BC%80%ED%8C%85&searchType=search&paid_fl=n&search_uuid=31444090-d130-4ce0-bdec-4ae69802c0b7",
+        "techStack": [],
+        "isMember": false,
+        "id": 147
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)브리드비인터내셔널",
+        "title": "[판교] 뷰티브랜드 퍼포먼스 마케팅 담당자 채용(신입)",
+        "matchedCategories": [
+            "퍼포먼스"
+        ],
+        "experience": [
+            "경력무관"
+        ],
+        "location": "경기 성남시 분당구",
+        "deadline": "2027-01-05",
+        "posted_date": "2026-11-06",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55503777&location=ts&searchword=%ED%8D%BC%ED%8F%AC%EB%A8%BC%EC%8A%A4+%EB%A7%88%EC%BC%80%ED%8C%85&searchType=search&paid_fl=n&search_uuid=31444090-d130-4ce0-bdec-4ae69802c0b7",
+        "techStack": [],
+        "isMember": false,
+        "id": 148
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)스마일코리아",
+        "title": "[7.5시간X5워라밸 보장] 공식 광고대행사 퍼포먼스 마케팅 신입",
+        "matchedCategories": [
+            "퍼포먼스"
+        ],
+        "experience": [
+            "경력무관"
+        ],
+        "location": "서울 금천구",
+        "deadline": "2026-12-16",
+        "posted_date": "2026-11-16",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55579652&location=ts&searchword=%ED%8D%BC%ED%8F%AC%EB%A8%BC%EC%8A%A4+%EB%A7%88%EC%BC%80%ED%8C%85&searchType=search&paid_fl=n&search_uuid=31444090-d130-4ce0-bdec-4ae69802c0b7",
+        "techStack": [],
+        "isMember": true,
+        "id": 149
+    },
+    {
+        "platform": "Saramin",
+        "company": "바른원웨이(주)",
+        "title": "[바른원웨이] AI 풀스택 개발자 (퍼포먼스 마케팅 겸임)",
+        "matchedCategories": [
+            "퍼포먼스",
+            "테크/AI"
+        ],
+        "experience": [
+            "경력3년↑"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2027-01-12",
+        "posted_date": "2026-11-13",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55566125&location=ts&searchword=%ED%8D%BC%ED%8F%AC%EB%A8%BC%EC%8A%A4+%EB%A7%88%EC%BC%80%ED%8C%85&searchType=search&paid_fl=n&search_uuid=31444090-d130-4ce0-bdec-4ae69802c0b7",
+        "techStack": [],
+        "isMember": false,
+        "id": 150
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)스킨이데아",
+        "title": "[글로벌 스킨케어 브랜드/메디필] 퍼포먼스 마케팅 담당 (경력)",
+        "matchedCategories": [
+            "퍼포먼스"
+        ],
+        "experience": [
+            "경력 5~7년"
+        ],
+        "location": "서울 강남구",
+        "deadline": "상시채용",
+        "posted_date": "2026-10-20",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55346262&location=ts&searchword=%ED%8D%BC%ED%8F%AC%EB%A8%BC%EC%8A%A4+%EB%A7%88%EC%BC%80%ED%8C%85&searchType=search&paid_fl=n&search_uuid=31444090-d130-4ce0-bdec-4ae69802c0b7",
+        "techStack": [],
+        "isMember": false,
+        "id": 151
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)팜스빌",
+        "title": "팜스빌 브랜드마케팅·퍼포먼스마케팅·온라인MD",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력3년↑"
+        ],
+        "location": "서울 강서구",
+        "deadline": "2026-12-13",
+        "posted_date": "2026-11-15",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55287488&location=ts&searchword=%ED%8D%BC%ED%8F%AC%EB%A8%BC%EC%8A%A4+%EB%A7%88%EC%BC%80%ED%8C%85&searchType=search&paid_fl=n&search_uuid=31444090-d130-4ce0-bdec-4ae69802c0b7",
+        "techStack": [],
+        "isMember": false,
+        "id": 152
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)플레이디",
+        "title": "[플레이디] 퍼포먼스마케팅AE 경력직 채용",
+        "matchedCategories": [
+            "기획/전략"
+        ],
+        "experience": [
+            "경력 1~6년"
+        ],
+        "location": "경기 성남시 분당구",
+        "deadline": "2026-11-25",
+        "posted_date": "2026-11-03",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55395566&location=ts&searchword=%ED%8D%BC%ED%8F%AC%EB%A8%BC%EC%8A%A4+%EB%A7%88%EC%BC%80%ED%8C%85&searchType=search&paid_fl=n&search_uuid=31444090-d130-4ce0-bdec-4ae69802c0b7",
+        "techStack": [],
+        "isMember": true,
+        "id": 153
+    },
+    {
+        "platform": "Saramin",
+        "company": "마켓비",
+        "title": "[마켓비] 퍼포먼스마케팅 경력직 채용",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력 2~5년"
+        ],
+        "location": "경기 파주시",
+        "deadline": "2026-11-26",
+        "posted_date": "2026-10-27",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55399957&location=ts&searchword=%ED%8D%BC%ED%8F%AC%EB%A8%BC%EC%8A%A4+%EB%A7%88%EC%BC%80%ED%8C%85&searchType=search&paid_fl=n&search_uuid=31444090-d130-4ce0-bdec-4ae69802c0b7",
+        "techStack": [],
+        "isMember": false,
+        "id": 154
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)쑥쑥컴퍼니",
+        "title": "[헤트라스] 북미 퍼포먼스 마케팅 파트장급",
+        "matchedCategories": [
+            "퍼포먼스"
+        ],
+        "experience": [
+            "경력"
+        ],
+        "location": "서울 서초구",
+        "deadline": "2026-12-04",
+        "posted_date": "2026-11-05",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55493416&location=ts&searchword=%ED%8D%BC%ED%8F%AC%EB%A8%BC%EC%8A%A4+%EB%A7%88%EC%BC%80%ED%8C%85&searchType=search&paid_fl=n&search_uuid=31444090-d130-4ce0-bdec-4ae69802c0b7",
+        "techStack": [],
+        "isMember": false,
+        "id": 155
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)쑥쑥컴퍼니",
+        "title": "[헤트라스] 북미 퍼포먼스 마케팅 담당자",
+        "matchedCategories": [
+            "퍼포먼스"
+        ],
+        "experience": [
+            "경력"
+        ],
+        "location": "서울 서초구",
+        "deadline": "2026-12-11",
+        "posted_date": "2026-11-12",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55543615&location=ts&searchword=%ED%8D%BC%ED%8F%AC%EB%A8%BC%EC%8A%A4+%EB%A7%88%EC%BC%80%ED%8C%85&searchType=search&paid_fl=n&search_uuid=31444090-d130-4ce0-bdec-4ae69802c0b7",
+        "techStack": [],
+        "isMember": false,
+        "id": 156
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)아티언스",
+        "title": "D2C 퍼포먼스 마케팅 컨설턴트",
+        "matchedCategories": [
+            "퍼포먼스"
+        ],
+        "experience": [
+            "신입·경력"
+        ],
+        "location": "서울 마포구",
+        "deadline": "2026-12-18",
+        "posted_date": "2026-11-19",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55597583&location=ts&searchword=%ED%8D%BC%ED%8F%AC%EB%A8%BC%EC%8A%A4+%EB%A7%88%EC%BC%80%ED%8C%85&searchType=search&paid_fl=n&search_uuid=31444090-d130-4ce0-bdec-4ae69802c0b7",
+        "techStack": [],
+        "isMember": false,
+        "id": 157
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)블루오렌지커뮤니케이션즈",
+        "title": "[블루오렌지] 퍼포먼스 마케팅 AE 경력 모집(1년~5년)",
+        "matchedCategories": [
+            "기획/전략",
+            "퍼포먼스"
+        ],
+        "experience": [
+            "경력 1~5년"
+        ],
+        "location": "서울 서초구",
+        "deadline": "상시채용",
+        "posted_date": "2026-11-04",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55478488&location=ts&searchword=%ED%8D%BC%ED%8F%AC%EB%A8%BC%EC%8A%A4+%EB%A7%88%EC%BC%80%ED%8C%85&searchType=search&paid_fl=n&search_uuid=31444090-d130-4ce0-bdec-4ae69802c0b7",
+        "techStack": [],
+        "isMember": true,
+        "id": 158
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)허밍아비스",
+        "title": "[STEAMBASE] 퍼포먼스 마케팅 경력직 채용 (서울)",
+        "matchedCategories": [
+            "퍼포먼스"
+        ],
+        "experience": [
+            "경력5년↑"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2026-12-01",
+        "posted_date": "2026-10-02",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55192169&location=ts&searchword=%ED%8D%BC%ED%8F%AC%EB%A8%BC%EC%8A%A4+%EB%A7%88%EC%BC%80%ED%8C%85&searchType=search&paid_fl=n&search_uuid=31444090-d130-4ce0-bdec-4ae69802c0b7",
+        "techStack": [],
+        "isMember": false,
+        "id": 159
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)함파트너스",
+        "title": "[함파트너스] 퍼포먼스 마케팅 신입 및  경력직 인재 채용",
+        "matchedCategories": [
+            "퍼포먼스"
+        ],
+        "experience": [
+            "신입·경력"
+        ],
+        "location": "서울 마포구",
+        "deadline": "2026-12-01",
+        "posted_date": "2026-11-20",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55187321&location=ts&searchword=%ED%8D%BC%ED%8F%AC%EB%A8%BC%EC%8A%A4+%EB%A7%88%EC%BC%80%ED%8C%85&searchType=search&paid_fl=n&search_uuid=31444090-d130-4ce0-bdec-4ae69802c0b7",
+        "techStack": [],
+        "isMember": true,
+        "id": 160
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)퍼틸레인",
+        "title": "[퍼틸레인] 퍼틸레인 퍼포먼스 마케팅 사업 총괄",
+        "matchedCategories": [
+            "퍼포먼스"
+        ],
+        "experience": [
+            "경력10년↑"
+        ],
+        "location": "서울 강남구",
+        "deadline": "상시채용",
+        "posted_date": "2026-10-07",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55228402&location=ts&searchword=%ED%8D%BC%ED%8F%AC%EB%A8%BC%EC%8A%A4+%EB%A7%88%EC%BC%80%ED%8C%85&searchType=search&paid_fl=n&search_uuid=31444090-d130-4ce0-bdec-4ae69802c0b7",
+        "techStack": [],
+        "isMember": true,
+        "id": 161
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)원트라이",
+        "title": "[종합광고대행사] 인플루언서 마케팅 팀원 모집 (MCN 경력 우대)",
+        "matchedCategories": [
+            "소셜/콘텐츠"
+        ],
+        "experience": [
+            "경력무관"
+        ],
+        "location": "서울 마포구",
+        "deadline": "상시채용",
+        "posted_date": "2026-11-17",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55562324&location=ts&searchword=%EC%A2%85%ED%95%A9+%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=91f80087-c7a5-4ce0-aa4b-b37d752608cb",
+        "techStack": [],
+        "isMember": false,
+        "id": 162
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)에이엘",
+        "title": "종합광고대행사 아트디렉터 (사원)",
+        "matchedCategories": [
+            "크리에이티브"
+        ],
+        "experience": [
+            "신입·경력"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2027-01-12",
+        "posted_date": "2026-11-13",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55570451&location=ts&searchword=%EC%A2%85%ED%95%A9+%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=91f80087-c7a5-4ce0-aa4b-b37d752608cb",
+        "techStack": [],
+        "isMember": false,
+        "id": 163
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)한컴",
+        "title": "(주)한컴 (두산그룹 종합광고대행사) 부문별 경력직 채용",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2026-12-17",
+        "posted_date": "2026-11-19",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55597366&location=ts&searchword=%EC%A2%85%ED%95%A9+%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=91f80087-c7a5-4ce0-aa4b-b37d752608cb",
+        "techStack": [],
+        "isMember": false,
+        "id": 164
+    },
+    {
+        "platform": "Saramin",
+        "company": "주식회사온티드",
+        "title": "[종합광고대행사] 영상편집 디자이너 모집",
+        "matchedCategories": [
+            "크리에이티브"
+        ],
+        "experience": [
+            "경력무관"
+        ],
+        "location": "서울 금천구",
+        "deadline": "상시채용",
+        "posted_date": "2026-11-18",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55607814&location=ts&searchword=%EC%A2%85%ED%95%A9+%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=91f80087-c7a5-4ce0-aa4b-b37d752608cb",
+        "techStack": [],
+        "isMember": false,
+        "id": 165
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)참콤",
+        "title": "종합 광고대행사 참콤과 함께할 경영지원 인재를 모십니다",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력3년↑"
+        ],
+        "location": "부산 해운대구",
+        "deadline": "상시채용",
+        "posted_date": "2026-10-21",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55357468&location=ts&searchword=%EC%A2%85%ED%95%A9+%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=91f80087-c7a5-4ce0-aa4b-b37d752608cb",
+        "techStack": [],
+        "isMember": false,
+        "id": 166
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)미담기획",
+        "title": "종합광고대행사 플랫폼 사업부 웹 기획자 경력직 채용",
+        "matchedCategories": [
+            "기획/전략"
+        ],
+        "experience": [
+            "경력"
+        ],
+        "location": "서울 구로구",
+        "deadline": "2026-12-16",
+        "posted_date": "2026-11-16",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55584216&location=ts&searchword=%EC%A2%85%ED%95%A9+%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=91f80087-c7a5-4ce0-aa4b-b37d752608cb",
+        "techStack": [],
+        "isMember": false,
+        "id": 167
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)그렇게하자",
+        "title": "[그렇게하자] 종합 광고대행사 디자인팀 경력 디자이너 모집",
+        "matchedCategories": [
+            "크리에이티브"
+        ],
+        "experience": [
+            "경력 2~4년"
+        ],
+        "location": "서울 종로구",
+        "deadline": "2026-12-20",
+        "posted_date": "2026-11-19",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55349229&location=ts&searchword=%EC%A2%85%ED%95%A9+%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=91f80087-c7a5-4ce0-aa4b-b37d752608cb",
+        "techStack": [],
+        "isMember": false,
+        "id": 168
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)에이치알그룹",
+        "title": "[종합광고대행사] 광고기획 AE",
+        "matchedCategories": [
+            "기획/전략"
+        ],
+        "experience": [
+            "경력 4~8년"
+        ],
+        "location": "서울 강남구",
+        "deadline": "상시채용",
+        "posted_date": "2026-11-10",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55533305&location=ts&searchword=%EC%A2%85%ED%95%A9+%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=91f80087-c7a5-4ce0-aa4b-b37d752608cb",
+        "techStack": [],
+        "isMember": false,
+        "id": 169
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)숏컷크리에이티브",
+        "title": "종합광고대행사 광고기획 AE 경력 모집",
+        "matchedCategories": [
+            "기획/전략"
+        ],
+        "experience": [
+            "경력 5~10년"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2026-11-30",
+        "posted_date": "2026-10-15",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55302839&location=ts&searchword=%EC%A2%85%ED%95%A9+%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=91f80087-c7a5-4ce0-aa4b-b37d752608cb",
+        "techStack": [],
+        "isMember": false,
+        "id": 170
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)마스몬스터",
+        "title": "[종합광고대행사] BTL 행사기획 경력 채용",
+        "matchedCategories": [
+            "기획/전략"
+        ],
+        "experience": [
+            "경력3년↑"
+        ],
+        "location": "서울 서초구",
+        "deadline": "상시채용",
+        "posted_date": "2026-10-12",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55262819&location=ts&searchword=%EC%A2%85%ED%95%A9+%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=91f80087-c7a5-4ce0-aa4b-b37d752608cb",
+        "techStack": [],
+        "isMember": false,
+        "id": 171
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)온비즈",
+        "title": "[종합광고대행사] SNS 콘텐츠 기획자 모집",
+        "matchedCategories": [
+            "기획/전략",
+            "소셜/콘텐츠"
+        ],
+        "experience": [
+            "경력1년↑"
+        ],
+        "location": "전남광주 북구",
+        "deadline": "2027-01-15",
+        "posted_date": "2026-11-16",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55583952&location=ts&searchword=%EC%A2%85%ED%95%A9+%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=91f80087-c7a5-4ce0-aa4b-b37d752608cb",
+        "techStack": [],
+        "isMember": false,
+        "id": 172
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)에이엘",
+        "title": "종합광고대행사 아트디렉터 (차장,부장 0명)",
+        "matchedCategories": [
+            "크리에이티브"
+        ],
+        "experience": [
+            "경력 7~12년"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2026-12-06",
+        "posted_date": "2026-10-07",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55224176&location=ts&searchword=%EC%A2%85%ED%95%A9+%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=91f80087-c7a5-4ce0-aa4b-b37d752608cb",
+        "techStack": [],
+        "isMember": false,
+        "id": 173
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)에이엘",
+        "title": "종합광고대행사 아트디렉터 (대리,차장)",
+        "matchedCategories": [
+            "크리에이티브"
+        ],
+        "experience": [
+            "경력 7~12년"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2027-01-09",
+        "posted_date": "2026-11-10",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55534816&location=ts&searchword=%EC%A2%85%ED%95%A9+%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=91f80087-c7a5-4ce0-aa4b-b37d752608cb",
+        "techStack": [],
+        "isMember": false,
+        "id": 174
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)휘닉스커뮤니케이션즈",
+        "title": "종합광고대행사 AE 경력(7년~10년)",
+        "matchedCategories": [
+            "기획/전략"
+        ],
+        "experience": [
+            "경력 7~10년"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2026-12-16",
+        "posted_date": "2026-11-17",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55599046&location=ts&searchword=%EC%A2%85%ED%95%A9+%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=91f80087-c7a5-4ce0-aa4b-b37d752608cb",
+        "techStack": [],
+        "isMember": false,
+        "id": 175
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)그로스비",
+        "title": "[종합광고대행사] 마케터 AE 부문 인턴(채용형) 모집",
+        "matchedCategories": [
+            "기획/전략"
+        ],
+        "experience": [
+            "신입"
+        ],
+        "location": "서울 강남구",
+        "deadline": "상시채용",
+        "posted_date": "2026-10-20",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55340884&location=ts&searchword=%EC%A2%85%ED%95%A9+%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=91f80087-c7a5-4ce0-aa4b-b37d752608cb",
+        "techStack": [],
+        "isMember": false,
+        "id": 176
+    },
+    {
+        "platform": "Saramin",
+        "company": "주식회사온티드",
+        "title": "[종합광고대행사] 부동산 광고 마케팅 영업 직원 모집",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력무관"
+        ],
+        "location": "서울 금천구",
+        "deadline": "상시채용",
+        "posted_date": "2026-11-16",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55582409&location=ts&searchword=%EC%A2%85%ED%95%A9+%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=91f80087-c7a5-4ce0-aa4b-b37d752608cb",
+        "techStack": [],
+        "isMember": false,
+        "id": 177
+    },
+    {
+        "platform": "Saramin",
+        "company": "주식회사 프로젝트원",
+        "title": "[㈜프로젝트원] 종합광고대행사 광고영업 직원 모집",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력무관"
+        ],
+        "location": "서울 강동구",
+        "deadline": "2027-01-19",
+        "posted_date": "2026-11-20",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55630695&location=ts&searchword=%EC%A2%85%ED%95%A9+%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=91f80087-c7a5-4ce0-aa4b-b37d752608cb",
+        "techStack": [],
+        "isMember": false,
+        "id": 178
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)웨이블",
+        "title": "[종합광고대행사 WAYBLE] 퍼포먼스 마케터",
+        "matchedCategories": [
+            "퍼포먼스"
+        ],
+        "experience": [
+            "경력1년↑"
+        ],
+        "location": "서울 마포구",
+        "deadline": "2026-12-25",
+        "posted_date": "2026-11-02",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55454356&location=ts&searchword=%EC%A2%85%ED%95%A9+%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=91f80087-c7a5-4ce0-aa4b-b37d752608cb",
+        "techStack": [],
+        "isMember": false,
+        "id": 179
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)미담기획",
+        "title": "종합광고대행사 퍼포먼스 마케터 경력직 채용",
+        "matchedCategories": [
+            "퍼포먼스"
+        ],
+        "experience": [
+            "경력무관"
+        ],
+        "location": "서울 구로구",
+        "deadline": "2026-12-12",
+        "posted_date": "2026-11-12",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55557699&location=ts&searchword=%EC%A2%85%ED%95%A9+%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=91f80087-c7a5-4ce0-aa4b-b37d752608cb",
+        "techStack": [],
+        "isMember": false,
+        "id": 180
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)미담기획",
+        "title": "종합광고대행사 영상 기획 PD  경력직 채용",
+        "matchedCategories": [
+            "기획/전략",
+            "크리에이티브"
+        ],
+        "experience": [
+            "경력무관"
+        ],
+        "location": "서울 구로구",
+        "deadline": "2026-12-12",
+        "posted_date": "2026-11-12",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55557718&location=ts&searchword=%EC%A2%85%ED%95%A9+%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=91f80087-c7a5-4ce0-aa4b-b37d752608cb",
+        "techStack": [],
+        "isMember": false,
+        "id": 181
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)스프링앤플라워",
+        "title": "종합광고대행사 (주)스프링앤플라워 퍼포먼스마케터 경력 채용",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력1년↑"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2026-11-26",
+        "posted_date": "2026-10-27",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55404785&location=ts&searchword=%EC%A2%85%ED%95%A9+%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=91f80087-c7a5-4ce0-aa4b-b37d752608cb",
+        "techStack": [],
+        "isMember": false,
+        "id": 182
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)소셜링",
+        "title": "[소셜링] 종합광고대행사 AE리더급 경력직 채용",
+        "matchedCategories": [
+            "기획/전략"
+        ],
+        "experience": [
+            "경력 3~5년"
+        ],
+        "location": "서울 영등포구",
+        "deadline": "2026-12-18",
+        "posted_date": "2026-10-19",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55329648&location=ts&searchword=%EC%A2%85%ED%95%A9+%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=91f80087-c7a5-4ce0-aa4b-b37d752608cb",
+        "techStack": [],
+        "isMember": false,
+        "id": 183
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)범글로벌",
+        "title": "[범글로벌] 종합광고대행사 바이럴 마케터 모집",
+        "matchedCategories": [
+            "소셜/콘텐츠"
+        ],
+        "experience": [
+            "경력 1~3년"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2026-12-17",
+        "posted_date": "2026-11-18",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55599820&location=ts&searchword=%EC%A2%85%ED%95%A9+%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=91f80087-c7a5-4ce0-aa4b-b37d752608cb",
+        "techStack": [],
+        "isMember": false,
+        "id": 184
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)웨이블",
+        "title": "[종합광고대행사 WAYBLE] 브랜드캠페인팀 (3년차 이상)",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력 3~10년"
+        ],
+        "location": "서울 마포구",
+        "deadline": "2026-12-23",
+        "posted_date": "2026-11-18",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55609852&location=ts&searchword=%EC%A2%85%ED%95%A9+%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=91f80087-c7a5-4ce0-aa4b-b37d752608cb",
+        "techStack": [],
+        "isMember": false,
+        "id": 185
+    },
+    {
+        "platform": "Saramin",
+        "company": "케이투코리아(주)",
+        "title": "[케이투코리아그룹] 11월 각 부문 신입/경력사원 채용",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "신입·경력"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2026-11-25",
+        "posted_date": "2026-11-09",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55517285&location=ts&searchword=%EC%A2%85%ED%95%A9+%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=91f80087-c7a5-4ce0-aa4b-b37d752608cb",
+        "techStack": [],
+        "isMember": false,
+        "id": 186
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)루트로닉",
+        "title": "[글로벌 의료기기] 사이노슈어 루트로닉 부문별 인재 채용",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "신입·경력"
+        ],
+        "location": "경기 고양시 덕양구",
+        "deadline": "2026-11-23",
+        "posted_date": "2026-11-06",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55364707&location=ts&searchword=%EC%A2%85%ED%95%A9+%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=91f80087-c7a5-4ce0-aa4b-b37d752608cb",
+        "techStack": [],
+        "isMember": false,
+        "id": 187
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)삐아",
+        "title": "[삐아] K-뷰티 트렌드세터 모집(온라인채널·상품개발·인턴)",
+        "matchedCategories": [
+            "테크/AI"
+        ],
+        "experience": [
+            "경력무관"
+        ],
+        "location": "인천 연수구",
+        "deadline": "2027-01-19",
+        "posted_date": "2026-11-20",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55630870&location=ts&searchword=%EC%A2%85%ED%95%A9+%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=91f80087-c7a5-4ce0-aa4b-b37d752608cb",
+        "techStack": [],
+        "isMember": false,
+        "id": 188
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)대학내일",
+        "title": "[대학내일ES] 마케팅(AE),재무,총무,카피라이터 신입/경력 채용",
+        "matchedCategories": [
+            "기획/전략",
+            "크리에이티브"
+        ],
+        "experience": [
+            "신입·경력"
+        ],
+        "location": "서울 마포구",
+        "deadline": "2026-12-01",
+        "posted_date": "2026-11-18",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55596584&location=ts&searchword=%EC%A2%85%ED%95%A9+%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=91f80087-c7a5-4ce0-aa4b-b37d752608cb",
+        "techStack": [],
+        "isMember": false,
+        "id": 189
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)바이오비쥬",
+        "title": "[코스닥 상장사] 마케팅 담당자 채용",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력무관"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2026-11-29",
+        "posted_date": "2026-11-20",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55442586&location=ts&searchword=%EC%A2%85%ED%95%A9+%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=91f80087-c7a5-4ce0-aa4b-b37d752608cb",
+        "techStack": [],
+        "isMember": false,
+        "id": 190
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)네오팜",
+        "title": "[네오팜] 2027 상반기 수시채용",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2026-12-02",
+        "posted_date": "2026-11-20",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55621719&location=ts&searchword=%EC%A2%85%ED%95%A9+%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=91f80087-c7a5-4ce0-aa4b-b37d752608cb",
+        "techStack": [],
+        "isMember": false,
+        "id": 191
     }
 ]
