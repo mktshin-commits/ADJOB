@@ -3479,5 +3479,113 @@
         "techStack": [],
         "isMember": false,
         "id": 191
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)에스엘바이오텍",
+        "title": "[뉴트리코어 뷰티] 브랜드마케팅·퍼포먼스마케팅·온라인MD",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력2년↑"
+        ],
+        "location": "서울 금천구",
+        "deadline": "2027-01-09",
+        "posted_date": "2026-11-23",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55532464&location=ts&searchword=%ED%8D%BC%ED%8F%AC%EB%A8%BC%EC%8A%A4+%EB%A7%88%EC%BC%80%ED%8C%85&searchType=search&paid_fl=n&search_uuid=7e1655dc-631f-4d08-9357-d65c316dbc8a",
+        "techStack": [],
+        "isMember": false,
+        "id": 192
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)쇼엠",
+        "title": "[서울 가산] 퍼포먼스 마케팅 담당자(모바일 앱)",
+        "matchedCategories": [
+            "퍼포먼스"
+        ],
+        "experience": [
+            "경력무관"
+        ],
+        "location": "서울 금천구",
+        "deadline": "2026-12-08",
+        "posted_date": "2026-11-05",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55495446&location=ts&searchword=%ED%8D%BC%ED%8F%AC%EB%A8%BC%EC%8A%A4+%EB%A7%88%EC%BC%80%ED%8C%85&searchType=search&paid_fl=n&search_uuid=7e1655dc-631f-4d08-9357-d65c316dbc8a",
+        "techStack": [],
+        "isMember": false,
+        "id": 193
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)모비데이즈",
+        "title": "프리랜서 ASAP 채용 (영상, 광고디자인, 카피, 퍼포먼스마케팅)",
+        "matchedCategories": [
+            "기획/전략"
+        ],
+        "experience": [
+            "경력1년↑"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2026-12-05",
+        "posted_date": "2026-11-05",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55494844&location=ts&searchword=%ED%8D%BC%ED%8F%AC%EB%A8%BC%EC%8A%A4+%EB%A7%88%EC%BC%80%ED%8C%85&searchType=search&paid_fl=n&search_uuid=7e1655dc-631f-4d08-9357-d65c316dbc8a",
+        "techStack": [],
+        "isMember": true,
+        "id": 194
+    },
+    {
+        "platform": "Saramin",
+        "company": "마인드노크(주)",
+        "title": "마인드노크(SK그룹 인크로스 자회사) 퍼포먼스마케팅 팀장 채용",
+        "matchedCategories": [
+            "기타"
+        ],
+        "experience": [
+            "경력5년↑"
+        ],
+        "location": "서울 관악구",
+        "deadline": "상시채용",
+        "posted_date": "2026-11-23",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55206273&location=ts&searchword=%ED%8D%BC%ED%8F%AC%EB%A8%BC%EC%8A%A4+%EB%A7%88%EC%BC%80%ED%8C%85&searchType=search&paid_fl=n&search_uuid=7e1655dc-631f-4d08-9357-d65c316dbc8a",
+        "techStack": [],
+        "isMember": false,
+        "id": 195
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)로지스밸리비앤에프",
+        "title": "[LV BnF] 북미 퍼포먼스 마케팅 채용",
+        "matchedCategories": [
+            "퍼포먼스"
+        ],
+        "experience": [
+            "경력무관"
+        ],
+        "location": "서울 마포구",
+        "deadline": "2026-11-26",
+        "posted_date": "2026-11-12",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55556835&location=ts&searchword=%ED%8D%BC%ED%8F%AC%EB%A8%BC%EC%8A%A4+%EB%A7%88%EC%BC%80%ED%8C%85&searchType=search&paid_fl=n&search_uuid=7e1655dc-631f-4d08-9357-d65c316dbc8a",
+        "techStack": [],
+        "isMember": false,
+        "id": 196
+    },
+    {
+        "platform": "Saramin",
+        "company": "(주)제이문컴퍼니",
+        "title": "[스타트업] 종합광고대행사 마케팅 AE 경력 채용",
+        "matchedCategories": [
+            "기획/전략"
+        ],
+        "experience": [
+            "경력5년↑"
+        ],
+        "location": "서울 강남구",
+        "deadline": "2026-12-18",
+        "posted_date": "2026-11-23",
+        "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=55611548&location=ts&searchword=%EC%A2%85%ED%95%A9+%EA%B4%91%EA%B3%A0+%EB%8C%80%ED%96%89%EC%82%AC&searchType=search&paid_fl=n&search_uuid=bf3ae246-c9a8-4b0d-bec0-ded1ee39dc14",
+        "techStack": [],
+        "isMember": false,
+        "id": 197
     }
 ]
